@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1db46e9c7420586fffa8fc547d0cb877 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1db46e9c7420586fffa8fc547d0cb877" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1db46e9c7420586fffa8fc547d0cb877 = L.map(
+                "map_1db46e9c7420586fffa8fc547d0cb877",
+                {
+                    center: [37.55, 126.96],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ccb7aaa7268ce42354481a19c77fb543 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca target=\"_blank\" href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca target=\"_blank\" href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1db46e9c7420586fffa8fc547d0cb877);
+        
+    
+            var circle_e02ee38bd3989962c996844f6d4eed43 = L.circle(
+                [37.5627863, 127.067195],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_1db46e9c7420586fffa8fc547d0cb877);
+        
+    
+        var popup_fa9b7a0ba7e57dbaacb4598a1c4ecea4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddbd4fa9652251906af3e9caea3f571e = $(`<div id="html_ddbd4fa9652251906af3e9caea3f571e" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>대한곱창(장안점)</strong><br>시간: 매일 15:00 - 01:00  <br>메뉴: 대한모듬곱창, 볶음밥 <br>주소: 02644 서울 동대문구 천호대로85길 21 (장안동, 동원빌딩) <br></div></div>`)[0];
+                popup_fa9b7a0ba7e57dbaacb4598a1c4ecea4.setContent(html_ddbd4fa9652251906af3e9caea3f571e);
+            
+        
+
+        circle_e02ee38bd3989962c996844f6d4eed43.bindPopup(popup_fa9b7a0ba7e57dbaacb4598a1c4ecea4)
+        ;
+
+        
+    
+    
+            circle_e02ee38bd3989962c996844f6d4eed43.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1365b56301886bc36a4467d48df9d2d6 = L.circle(
+                [37.5867304, 127.0389802],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_1db46e9c7420586fffa8fc547d0cb877);
+        
+    
+        var popup_be4fe6db0ede197c62fe61bb21cb8571 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8c1c6e891c49562ede6cb0310b0d161 = $(`<div id="html_d8c1c6e891c49562ede6cb0310b0d161" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>홍능갈비집</strong><br>시간: 매일 11:30~21:30   <br>메뉴: 한우생갈비, 양념갈비, 생갈비, 불고기 <br>주소: 02470 서울 동대문구 제기로 85 (홍능갈비집) <br></div></div>`)[0];
+                popup_be4fe6db0ede197c62fe61bb21cb8571.setContent(html_d8c1c6e891c49562ede6cb0310b0d161);
+            
+        
+
+        circle_1365b56301886bc36a4467d48df9d2d6.bindPopup(popup_be4fe6db0ede197c62fe61bb21cb8571)
+        ;
+
+        
+    
+    
+            circle_1365b56301886bc36a4467d48df9d2d6.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8d0d90fd9511c450365c7b3137125ffa = L.circle(
+                [37.5888986, 127.0569768],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_1db46e9c7420586fffa8fc547d0cb877);
+        
+    
+        var popup_759918b53dd50d47d9f4746f629ece8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c633da501914639fe98ca3b8f4f731ca = $(`<div id="html_c633da501914639fe98ca3b8f4f731ca" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>초우마을</strong><br>시간: 11:00 ~ 22:00  <br>메뉴: 소고기구이 <br>주소: 02446 서울특별시 동대문구 회기로28길 8 (휘경동) <br></div></div>`)[0];
+                popup_759918b53dd50d47d9f4746f629ece8e.setContent(html_c633da501914639fe98ca3b8f4f731ca);
+            
+        
+
+        circle_8d0d90fd9511c450365c7b3137125ffa.bindPopup(popup_759918b53dd50d47d9f4746f629ece8e)
+        ;
+
+        
+    
+    
+            circle_8d0d90fd9511c450365c7b3137125ffa.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e77225963051a8c415e951e0bfc87af1 = L.circle(
+                [37.5698604, 127.0587032],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_1db46e9c7420586fffa8fc547d0cb877);
+        
+    
+        var popup_7b0eb3b871899ecb0451955dae84e77b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2eda68c2f8f769f47c0a2a6a6c321863 = $(`<div id="html_2eda68c2f8f769f47c0a2a6a6c321863" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>성천막국수</strong><br>시간: 월 - 금 11:30 - 15:00 / 17:00 - 21:00 , 토 11:30 - 17:00 <br>메뉴: 물막국수, 비빔막국수, 제육  <br>주소: 02614 서울 동대문구 답십리로48나길 2 (답십리동) <br></div></div>`)[0];
+                popup_7b0eb3b871899ecb0451955dae84e77b.setContent(html_2eda68c2f8f769f47c0a2a6a6c321863);
+            
+        
+
+        circle_e77225963051a8c415e951e0bfc87af1.bindPopup(popup_7b0eb3b871899ecb0451955dae84e77b)
+        ;
+
+        
+    
+    
+            circle_e77225963051a8c415e951e0bfc87af1.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8cac41c44ccafdb346c7218cff3f903a = L.circle(
+                [37.5847959, 127.0379362],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_1db46e9c7420586fffa8fc547d0cb877);
+        
+    
+        var popup_417da6bd641080821085d5032cacc554 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff955975944b3fd938717a50a074e5ec = $(`<div id="html_ff955975944b3fd938717a50a074e5ec" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>효성한의원</strong><br>시간: 10:00~18:00 <br>메뉴: nan <br>주소: 02569 서울 동대문구 약령중앙로 5 (제기동, 대산빌딩) <br></div></div>`)[0];
+                popup_417da6bd641080821085d5032cacc554.setContent(html_ff955975944b3fd938717a50a074e5ec);
+            
+        
+
+        circle_8cac41c44ccafdb346c7218cff3f903a.bindPopup(popup_417da6bd641080821085d5032cacc554)
+        ;
+
+        
+    
+    
+            circle_8cac41c44ccafdb346c7218cff3f903a.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d36864ff75037c79b84869989018b7eb = L.circle(
+                [37.5797859, 127.0571491],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_1db46e9c7420586fffa8fc547d0cb877);
+        
+    
+        var popup_60652a46f7f490a09506ddaa4dfce39e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_336da58b7fa10530a75b1f240b2760d2 = $(`<div id="html_336da58b7fa10530a75b1f240b2760d2" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>신락원</strong><br>시간: 화-일 11:30-22:00 (휴게시간 15:00~17:00) <br>메뉴: 신락면, 중새우요리, 유니짜장면, 삼선누룽지탕 <br>주소: 02506 서울 동대문구 전농로20길 2 (전농동) <br></div></div>`)[0];
+                popup_60652a46f7f490a09506ddaa4dfce39e.setContent(html_336da58b7fa10530a75b1f240b2760d2);
+            
+        
+
+        circle_d36864ff75037c79b84869989018b7eb.bindPopup(popup_60652a46f7f490a09506ddaa4dfce39e)
+        ;
+
+        
+    
+    
+            circle_d36864ff75037c79b84869989018b7eb.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

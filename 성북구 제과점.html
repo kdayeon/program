@@ -1,0 +1,3549 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_97444fc2d2c6af0dffd7b7ecd25c9e0c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_97444fc2d2c6af0dffd7b7ecd25c9e0c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_97444fc2d2c6af0dffd7b7ecd25c9e0c = L.map(
+                "map_97444fc2d2c6af0dffd7b7ecd25c9e0c",
+                {
+                    center: [37.55, 126.96],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a8c5495333062bccb2d0772a8cdf0e55 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca target=\"_blank\" href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca target=\"_blank\" href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+            var circle_522d5575ecf8a118b520bf04cc3ad5c0 = L.circle(
+                [37.60837442819217, 127.02583462053673],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_4ac971a5114075b5d9431236303ebf89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2421ab4914bdb63a43bac5550c344104 = $(`<div id="html_2421ab4914bdb63a43bac5550c344104" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>베즐리 미아점</strong><br>주소: 서울특별시 성북구 동소문로 315, 현대백화점미아점 지하1층 (길음동)<br></div></div>`)[0];
+                popup_4ac971a5114075b5d9431236303ebf89.setContent(html_2421ab4914bdb63a43bac5550c344104);
+            
+        
+
+        circle_522d5575ecf8a118b520bf04cc3ad5c0.bindPopup(popup_4ac971a5114075b5d9431236303ebf89)
+        ;
+
+        
+    
+    
+            circle_522d5575ecf8a118b520bf04cc3ad5c0.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_303cfc64f547f751c4584188e4fb69d0 = L.circle(
+                [37.60837442819217, 127.02583462053673],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_38f29d6ea46b07a81c4747f31c5fc11f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d35770c6edf3afe9f8496421677acf8 = $(`<div id="html_6d35770c6edf3afe9f8496421677acf8" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>베즐리 베이커리</strong><br>주소: 서울특별시 성북구 동소문로 315, 현대백화점미아점 지하1층 (길음동)<br></div></div>`)[0];
+                popup_38f29d6ea46b07a81c4747f31c5fc11f.setContent(html_6d35770c6edf3afe9f8496421677acf8);
+            
+        
+
+        circle_303cfc64f547f751c4584188e4fb69d0.bindPopup(popup_38f29d6ea46b07a81c4747f31c5fc11f)
+        ;
+
+        
+    
+    
+            circle_303cfc64f547f751c4584188e4fb69d0.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3f42fa904e09f93fe60b116e9184c53a = L.circle(
+                [37.606502475707586, 127.01056596115527],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_543257eb34e56bfd9709fed3bd630deb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96c76f385c803016a58176751053ef5c = $(`<div id="html_96c76f385c803016a58176751053ef5c" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>온브레드</strong><br>주소: 서울특별시 성북구 정릉로27나길 4, 소영빌라 1층 101호 (정릉동)<br></div></div>`)[0];
+                popup_543257eb34e56bfd9709fed3bd630deb.setContent(html_96c76f385c803016a58176751053ef5c);
+            
+        
+
+        circle_3f42fa904e09f93fe60b116e9184c53a.bindPopup(popup_543257eb34e56bfd9709fed3bd630deb)
+        ;
+
+        
+    
+    
+            circle_3f42fa904e09f93fe60b116e9184c53a.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_88c20cefe659fa07c0c7a73ea61ca19c = L.circle(
+                [37.60686226531962, 127.02707297184985],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_07eb6a0b068b0fea9ba94e9d4033a73c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb06cf429aabe9a20bb28e61b8cd7975 = $(`<div id="html_bb06cf429aabe9a20bb28e61b8cd7975" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>소확행베이커리 성북점</strong><br>주소: 서울특별시 성북구 동소문로46길 18, 제지하1층 제비101호5호 (하월곡동, 삼전솔하임3차)<br></div></div>`)[0];
+                popup_07eb6a0b068b0fea9ba94e9d4033a73c.setContent(html_bb06cf429aabe9a20bb28e61b8cd7975);
+            
+        
+
+        circle_88c20cefe659fa07c0c7a73ea61ca19c.bindPopup(popup_07eb6a0b068b0fea9ba94e9d4033a73c)
+        ;
+
+        
+    
+    
+            circle_88c20cefe659fa07c0c7a73ea61ca19c.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_28c70356cb9fb995c197eb6abb99df66 = L.circle(
+                [37.60837442819217, 127.02583462053673],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_7719b23d7ce1bd9fe63d60cfa2aa60b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c93aedd1a5edab48318c2392d9f68af = $(`<div id="html_4c93aedd1a5edab48318c2392d9f68af" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>보정당</strong><br>주소: 서울특별시 성북구 동소문로 315, 현대백화점미아점 지하1층 (길음동)<br></div></div>`)[0];
+                popup_7719b23d7ce1bd9fe63d60cfa2aa60b7.setContent(html_4c93aedd1a5edab48318c2392d9f68af);
+            
+        
+
+        circle_28c70356cb9fb995c197eb6abb99df66.bindPopup(popup_7719b23d7ce1bd9fe63d60cfa2aa60b7)
+        ;
+
+        
+    
+    
+            circle_28c70356cb9fb995c197eb6abb99df66.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e8d0a06fdd9ec9efa8e4283276c0daa7 = L.circle(
+                [37.60837442819217, 127.02583462053673],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_d145250c76f2f42ac5f9d154392fcb33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b4f6dc4f08fbf310bc4dc5d16fcd612 = $(`<div id="html_0b4f6dc4f08fbf310bc4dc5d16fcd612" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>더피터</strong><br>주소: 서울특별시 성북구 동소문로 315, 현대백화점미아점 지하1층 (길음동)<br></div></div>`)[0];
+                popup_d145250c76f2f42ac5f9d154392fcb33.setContent(html_0b4f6dc4f08fbf310bc4dc5d16fcd612);
+            
+        
+
+        circle_e8d0a06fdd9ec9efa8e4283276c0daa7.bindPopup(popup_d145250c76f2f42ac5f9d154392fcb33)
+        ;
+
+        
+    
+    
+            circle_e8d0a06fdd9ec9efa8e4283276c0daa7.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_70bde434bfbedf0553f9790b53ba2145 = L.circle(
+                [37.59017910286877, 127.01600912466162],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_9d0d5d9327f5858eab5b812bdc8b16ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52a2cc9d394acf44fc971fdda7d35a98 = $(`<div id="html_52a2cc9d394acf44fc971fdda7d35a98" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>로스디아스(Los Dias)</strong><br>주소: 서울특별시 성북구 동소문로22길 67, 2층 (동선동2가)<br></div></div>`)[0];
+                popup_9d0d5d9327f5858eab5b812bdc8b16ab.setContent(html_52a2cc9d394acf44fc971fdda7d35a98);
+            
+        
+
+        circle_70bde434bfbedf0553f9790b53ba2145.bindPopup(popup_9d0d5d9327f5858eab5b812bdc8b16ab)
+        ;
+
+        
+    
+    
+            circle_70bde434bfbedf0553f9790b53ba2145.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_816d366debe8f241cb3dca5433502ee9 = L.circle(
+                [37.59575667291208, 127.0322611498929],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_1abd49b47ca9df4c7e994b731c62f05f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd3e44a8ab2c0d8896ca3006e5b741f9 = $(`<div id="html_bd3e44a8ab2c0d8896ca3006e5b741f9" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>빵미숙</strong><br>주소: 서울특별시 성북구 종암로9길 8, 1층 102호 (종암동)<br></div></div>`)[0];
+                popup_1abd49b47ca9df4c7e994b731c62f05f.setContent(html_bd3e44a8ab2c0d8896ca3006e5b741f9);
+            
+        
+
+        circle_816d366debe8f241cb3dca5433502ee9.bindPopup(popup_1abd49b47ca9df4c7e994b731c62f05f)
+        ;
+
+        
+    
+    
+            circle_816d366debe8f241cb3dca5433502ee9.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d2e9286bf3750799afff6517d7612477 = L.circle(
+                [37.60874577294278, 127.0035794134201],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_6104ac8866b34c860975ac71dc9edc28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7e3fcecc49791efadff91faba86a375 = $(`<div id="html_d7e3fcecc49791efadff91faba86a375" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>구움,정</strong><br>주소: 서울특별시 성북구 솔샘로6길 24-17, 1층 (정릉동)<br></div></div>`)[0];
+                popup_6104ac8866b34c860975ac71dc9edc28.setContent(html_d7e3fcecc49791efadff91faba86a375);
+            
+        
+
+        circle_d2e9286bf3750799afff6517d7612477.bindPopup(popup_6104ac8866b34c860975ac71dc9edc28)
+        ;
+
+        
+    
+    
+            circle_d2e9286bf3750799afff6517d7612477.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5e674809010c975fbf47d30c5a607eb8 = L.circle(
+                [37.592649426064895, 126.99383695512978],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_79a5c21412f86af7413b64fcde866a33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fd2759df152d847dd23232771a684d6 = $(`<div id="html_8fd2759df152d847dd23232771a684d6" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>밀곳간(누룩과 소금꽃)</strong><br>주소: 서울특별시 성북구 성북로19길 9, 지하1층 (성북동)<br></div></div>`)[0];
+                popup_79a5c21412f86af7413b64fcde866a33.setContent(html_8fd2759df152d847dd23232771a684d6);
+            
+        
+
+        circle_5e674809010c975fbf47d30c5a607eb8.bindPopup(popup_79a5c21412f86af7413b64fcde866a33)
+        ;
+
+        
+    
+    
+            circle_5e674809010c975fbf47d30c5a607eb8.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a4a6351fbd8764ce28afbadbad6fcd15 = L.circle(
+                [37.60961670025748, 127.03314495743571],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_96b6cdbfaf0df8d7203d97695489db1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63ed69f41120a45dc1c3c7390dc9f0d8 = $(`<div id="html_63ed69f41120a45dc1c3c7390dc9f0d8" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>외계인방앗간 월곡점</strong><br>주소: 서울특별시 성북구 오패산로 84, 래미안월곡아파트 상가동 103호 (하월곡동)<br></div></div>`)[0];
+                popup_96b6cdbfaf0df8d7203d97695489db1d.setContent(html_63ed69f41120a45dc1c3c7390dc9f0d8);
+            
+        
+
+        circle_a4a6351fbd8764ce28afbadbad6fcd15.bindPopup(popup_96b6cdbfaf0df8d7203d97695489db1d)
+        ;
+
+        
+    
+    
+            circle_a4a6351fbd8764ce28afbadbad6fcd15.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_504b10c6a0bbde7da829f7f8b6104ac6 = L.circle(
+                [37.62131904772549, 127.04505003695836],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_cb1c694ad2855046c766f559bde687d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f34ef5a5c101cc793580f5b3d23a73c1 = $(`<div id="html_f34ef5a5c101cc793580f5b3d23a73c1" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>명품브라우니</strong><br>주소: 서울특별시 성북구 한천로101길 59, 번동시장 1층 (장위동)<br></div></div>`)[0];
+                popup_cb1c694ad2855046c766f559bde687d4.setContent(html_f34ef5a5c101cc793580f5b3d23a73c1);
+            
+        
+
+        circle_504b10c6a0bbde7da829f7f8b6104ac6.bindPopup(popup_cb1c694ad2855046c766f559bde687d4)
+        ;
+
+        
+    
+    
+            circle_504b10c6a0bbde7da829f7f8b6104ac6.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c3564037e6efe9d7b3653e6e6e9ef35f = L.circle(
+                [37.594055248678856, 127.0128288067264],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_b8b3b2c9af5124a6b4c03e0ff3a444c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4332a97de5155f1a380cbbc1a7f7b0a6 = $(`<div id="html_4332a97de5155f1a380cbbc1a7f7b0a6" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게뜨 동소문점</strong><br>주소: 서울특별시 성북구 동소문로17길 37, 제1동 제1층 101호 (동소문동6가, 한강팰리스)<br></div></div>`)[0];
+                popup_b8b3b2c9af5124a6b4c03e0ff3a444c6.setContent(html_4332a97de5155f1a380cbbc1a7f7b0a6);
+            
+        
+
+        circle_c3564037e6efe9d7b3653e6e6e9ef35f.bindPopup(popup_b8b3b2c9af5124a6b4c03e0ff3a444c6)
+        ;
+
+        
+    
+    
+            circle_c3564037e6efe9d7b3653e6e6e9ef35f.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a2754f91c7493f7b5857be3b109ffa0c = L.circle(
+                [37.60378375122794, 127.01656269657613],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_3a0d1cafd3cf05f877e5a9cd6bd1baba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0c20b51115d7d8967dcb72c28f81f89 = $(`<div id="html_e0c20b51115d7d8967dcb72c28f81f89" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>한나베이커리</strong><br>주소: 서울특별시 성북구 길음로9길 50, 상가동동 113호 (길음동, 길음뉴타운)<br></div></div>`)[0];
+                popup_3a0d1cafd3cf05f877e5a9cd6bd1baba.setContent(html_e0c20b51115d7d8967dcb72c28f81f89);
+            
+        
+
+        circle_a2754f91c7493f7b5857be3b109ffa0c.bindPopup(popup_3a0d1cafd3cf05f877e5a9cd6bd1baba)
+        ;
+
+        
+    
+    
+            circle_a2754f91c7493f7b5857be3b109ffa0c.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_03a5276cbbb3f018c4af3213b4540772 = L.circle(
+                [37.61805732923614, 127.0440818979434],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_5377c1b23f5a0aaed5628822d63338b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d54fcb393f00c00cdf282db47de58e97 = $(`<div id="html_d54fcb393f00c00cdf282db47de58e97" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>뮈에</strong><br>주소: 서울특별시 성북구 돌곶이로 205, 지하1층 (장위동)<br></div></div>`)[0];
+                popup_5377c1b23f5a0aaed5628822d63338b2.setContent(html_d54fcb393f00c00cdf282db47de58e97);
+            
+        
+
+        circle_03a5276cbbb3f018c4af3213b4540772.bindPopup(popup_5377c1b23f5a0aaed5628822d63338b2)
+        ;
+
+        
+    
+    
+            circle_03a5276cbbb3f018c4af3213b4540772.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_02d6c56864db933265d341c4d50d3cd4 = L.circle(
+                [37.61915383203022, 127.04576290965062],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_83de84e586b087f28dfd0d430f70dc96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70f29e20f45f10c014b119ada961654e = $(`<div id="html_70f29e20f45f10c014b119ada961654e" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>밀버터</strong><br>주소: 서울특별시 성북구 돌곶이로40길 46, 상가1동 지1층 4호 (장위동, 꿈의숲 아이파크)<br></div></div>`)[0];
+                popup_83de84e586b087f28dfd0d430f70dc96.setContent(html_70f29e20f45f10c014b119ada961654e);
+            
+        
+
+        circle_02d6c56864db933265d341c4d50d3cd4.bindPopup(popup_83de84e586b087f28dfd0d430f70dc96)
+        ;
+
+        
+    
+    
+            circle_02d6c56864db933265d341c4d50d3cd4.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b08d8063bc10ce525249c4649c153c71 = L.circle(
+                [37.60684492444347, 127.05801317027793],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_26666f6842ca0a31360bb3cf6a7596af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed6f3a9eecefd93f584f41f67483b45a = $(`<div id="html_ed6f3a9eecefd93f584f41f67483b45a" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>아비엥또</strong><br>주소: 서울특별시 성북구 돌곶이로 27-1, 1층 (석관동)<br></div></div>`)[0];
+                popup_26666f6842ca0a31360bb3cf6a7596af.setContent(html_ed6f3a9eecefd93f584f41f67483b45a);
+            
+        
+
+        circle_b08d8063bc10ce525249c4649c153c71.bindPopup(popup_26666f6842ca0a31360bb3cf6a7596af)
+        ;
+
+        
+    
+    
+            circle_b08d8063bc10ce525249c4649c153c71.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e403c2911eb79ff203e82f2800b590a0 = L.circle(
+                [37.618585951348535, 127.0044150396187],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_ad9e666a56166681a9c74ba18c3dc700 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57c2ccbd1bef91983bf64e1ea4a96d07 = $(`<div id="html_57c2ccbd1bef91983bf64e1ea4a96d07" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>뚜레쥬르 정릉풍림점</strong><br>주소: 서울특별시 성북구 솔샘로25길 20, 정릉풍림아이원 상가1동 1층 106호 (정릉동)<br></div></div>`)[0];
+                popup_ad9e666a56166681a9c74ba18c3dc700.setContent(html_57c2ccbd1bef91983bf64e1ea4a96d07);
+            
+        
+
+        circle_e403c2911eb79ff203e82f2800b590a0.bindPopup(popup_ad9e666a56166681a9c74ba18c3dc700)
+        ;
+
+        
+    
+    
+            circle_e403c2911eb79ff203e82f2800b590a0.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_aed4f010f8032928cd3d8971c19664e4 = L.circle(
+                [37.610358271059106, 127.01217163183973],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_afe579df928fc44a0fb970eeb4aac3a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e3ef3e596f19333ab6254be87a27a47 = $(`<div id="html_6e3ef3e596f19333ab6254be87a27a47" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>오앤오케이크(O&OCAKE)</strong><br>주소: 서울특별시 성북구 서경로18길 6, 1층 (정릉동)<br></div></div>`)[0];
+                popup_afe579df928fc44a0fb970eeb4aac3a6.setContent(html_6e3ef3e596f19333ab6254be87a27a47);
+            
+        
+
+        circle_aed4f010f8032928cd3d8971c19664e4.bindPopup(popup_afe579df928fc44a0fb970eeb4aac3a6)
+        ;
+
+        
+    
+    
+            circle_aed4f010f8032928cd3d8971c19664e4.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f0f7540cc03c46d0c20b915d0efee716 = L.circle(
+                [37.59467098939756, 127.01726991784525],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_b88bb9fa0634502817513c602fb1d6e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae7a1e762fcd0f9699936f0a9fb4a483 = $(`<div id="html_ae7a1e762fcd0f9699936f0a9fb4a483" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>토닥토닥</strong><br>주소: 서울특별시 성북구 동소문로26다길 17, 1층 (동선동3가)<br></div></div>`)[0];
+                popup_b88bb9fa0634502817513c602fb1d6e2.setContent(html_ae7a1e762fcd0f9699936f0a9fb4a483);
+            
+        
+
+        circle_f0f7540cc03c46d0c20b915d0efee716.bindPopup(popup_b88bb9fa0634502817513c602fb1d6e2)
+        ;
+
+        
+    
+    
+            circle_f0f7540cc03c46d0c20b915d0efee716.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8779e3369b19cbd8cffda889acc56f97 = L.circle(
+                [37.58905859800623, 127.00131447904288],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_08c1720c8e2de39f8f851d997dba7314 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29f91d8b93f5a7188d5306ef01a6df20 = $(`<div id="html_29f91d8b93f5a7188d5306ef01a6df20" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>달콤한위로</strong><br>주소: 서울특별시 성북구 창경궁로43길 24, 1층 (성북동1가)<br></div></div>`)[0];
+                popup_08c1720c8e2de39f8f851d997dba7314.setContent(html_29f91d8b93f5a7188d5306ef01a6df20);
+            
+        
+
+        circle_8779e3369b19cbd8cffda889acc56f97.bindPopup(popup_08c1720c8e2de39f8f851d997dba7314)
+        ;
+
+        
+    
+    
+            circle_8779e3369b19cbd8cffda889acc56f97.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2343b00578fca98b019b6cb8ad418e1e = L.circle(
+                [37.589303692481025, 127.00420309234852],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_3ff10b3018edf53d7ee2486249ee648b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55e29ac3425d579543b585119bb07f68 = $(`<div id="html_55e29ac3425d579543b585119bb07f68" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>브레드토리(BREADTORY)</strong><br>주소: 서울특별시 성북구 성북로2길 22, 1층 (동소문동1가)<br></div></div>`)[0];
+                popup_3ff10b3018edf53d7ee2486249ee648b.setContent(html_55e29ac3425d579543b585119bb07f68);
+            
+        
+
+        circle_2343b00578fca98b019b6cb8ad418e1e.bindPopup(popup_3ff10b3018edf53d7ee2486249ee648b)
+        ;
+
+        
+    
+    
+            circle_2343b00578fca98b019b6cb8ad418e1e.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_aca26157d7e2e8f583b143d8fa87fb6e = L.circle(
+                [37.61710016836397, 127.04425075840842],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_29d1648df7650095669b401ff876c6ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97bbeb6f1526065f3a08b84dc37e12e4 = $(`<div id="html_97bbeb6f1526065f3a08b84dc37e12e4" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>데인티(Dainty)</strong><br>주소: 서울특별시 성북구 돌곶이로41길 49, 1층 (장위동)<br></div></div>`)[0];
+                popup_29d1648df7650095669b401ff876c6ad.setContent(html_97bbeb6f1526065f3a08b84dc37e12e4);
+            
+        
+
+        circle_aca26157d7e2e8f583b143d8fa87fb6e.bindPopup(popup_29d1648df7650095669b401ff876c6ad)
+        ;
+
+        
+    
+    
+            circle_aca26157d7e2e8f583b143d8fa87fb6e.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2b91d38153c0f82dcb522fdf53d47a7c = L.circle(
+                [37.58872368315203, 127.00227609162123],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_d5dbf072953fec2245d46b326663c556 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_922f3208bc6afd68d2bf57aa39b6b5d1 = $(`<div id="html_922f3208bc6afd68d2bf57aa39b6b5d1" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>달콤한위로</strong><br>주소: 서울특별시 성북구 성북로 5-7, 우성 5층 (성북동1가)<br></div></div>`)[0];
+                popup_d5dbf072953fec2245d46b326663c556.setContent(html_922f3208bc6afd68d2bf57aa39b6b5d1);
+            
+        
+
+        circle_2b91d38153c0f82dcb522fdf53d47a7c.bindPopup(popup_d5dbf072953fec2245d46b326663c556)
+        ;
+
+        
+    
+    
+            circle_2b91d38153c0f82dcb522fdf53d47a7c.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e9a4820f6934cf2a71471a151b7c8b38 = L.circle(
+                [37.590619484806545, 127.01705915883998],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_746f875adebc263fc8b5fc6e35c02ea6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32a7c4becaaf6b0538339f7e6bb11428 = $(`<div id="html_32a7c4becaaf6b0538339f7e6bb11428" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>코코베이글앤</strong><br>주소: 서울특별시 성북구 보문로32길 69, 1층 (동선동2가)<br></div></div>`)[0];
+                popup_746f875adebc263fc8b5fc6e35c02ea6.setContent(html_32a7c4becaaf6b0538339f7e6bb11428);
+            
+        
+
+        circle_e9a4820f6934cf2a71471a151b7c8b38.bindPopup(popup_746f875adebc263fc8b5fc6e35c02ea6)
+        ;
+
+        
+    
+    
+            circle_e9a4820f6934cf2a71471a151b7c8b38.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9ef2a3e4161e9795cb8bc0f05c612a4e = L.circle(
+                [37.601520476094194, 127.01675411624821],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_6183929a93160796748a99a5e976b629 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a96be944a9f1a28b8423a88412eff14 = $(`<div id="html_4a96be944a9f1a28b8423a88412eff14" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>다락방케이크</strong><br>주소: 서울특별시 성북구 정릉로38라길 17, 1층 (정릉동)<br></div></div>`)[0];
+                popup_6183929a93160796748a99a5e976b629.setContent(html_4a96be944a9f1a28b8423a88412eff14);
+            
+        
+
+        circle_9ef2a3e4161e9795cb8bc0f05c612a4e.bindPopup(popup_6183929a93160796748a99a5e976b629)
+        ;
+
+        
+    
+    
+            circle_9ef2a3e4161e9795cb8bc0f05c612a4e.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_92e9b168da2dcb269a25b5338b6f871b = L.circle(
+                [37.61916568692627, 127.0494397878415],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_c398d14a94056cc4c4a12797be9d4433 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30f1e3f56e239acd7dc7615dfbdb20ac = $(`<div id="html_30f1e3f56e239acd7dc7615dfbdb20ac" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게뜨 장위뉴타운점</strong><br>주소: 서울특별시 성북구 한천로 713, 515동 2-106,107호 (장위동)<br></div></div>`)[0];
+                popup_c398d14a94056cc4c4a12797be9d4433.setContent(html_30f1e3f56e239acd7dc7615dfbdb20ac);
+            
+        
+
+        circle_92e9b168da2dcb269a25b5338b6f871b.bindPopup(popup_c398d14a94056cc4c4a12797be9d4433)
+        ;
+
+        
+    
+    
+            circle_92e9b168da2dcb269a25b5338b6f871b.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2f378fdf4e106d9402446ff65d33a3bd = L.circle(
+                [37.60837442769309, 127.02583462076558],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_cc9a93045f6423068118f8fe0a19d38b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_264c1bf6a7e88379b0165301e868c561 = $(`<div id="html_264c1bf6a7e88379b0165301e868c561" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>몽슈슈</strong><br>주소: 서울특별시 성북구 동소문로 315, 현대백화점미아점 지하1층 (길음동)<br></div></div>`)[0];
+                popup_cc9a93045f6423068118f8fe0a19d38b.setContent(html_264c1bf6a7e88379b0165301e868c561);
+            
+        
+
+        circle_2f378fdf4e106d9402446ff65d33a3bd.bindPopup(popup_cc9a93045f6423068118f8fe0a19d38b)
+        ;
+
+        
+    
+    
+            circle_2f378fdf4e106d9402446ff65d33a3bd.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bc8e399b0d1bfbc7345c9c4346ea3651 = L.circle(
+                [37.61127732204151, 127.0481296603509],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_d94ba4b9b8b2a4f88fb9589c98c3353e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_476ee5bf9ea78fa7e5caa3c53c51fe40 = $(`<div id="html_476ee5bf9ea78fa7e5caa3c53c51fe40" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>빵이가득한집</strong><br>주소: 서울특별시 성북구 장위로38길 46-1 (장위동)<br></div></div>`)[0];
+                popup_d94ba4b9b8b2a4f88fb9589c98c3353e.setContent(html_476ee5bf9ea78fa7e5caa3c53c51fe40);
+            
+        
+
+        circle_bc8e399b0d1bfbc7345c9c4346ea3651.bindPopup(popup_d94ba4b9b8b2a4f88fb9589c98c3353e)
+        ;
+
+        
+    
+    
+            circle_bc8e399b0d1bfbc7345c9c4346ea3651.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_eee61c26a48a488adc4d886384859607 = L.circle(
+                [37.5988374177589, 127.03193905139933],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_3fa8ea3c971b4778efccc3f1aa029e0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbfb71f325b4dd7a40d05ddcb2a1d118 = $(`<div id="html_bbfb71f325b4dd7a40d05ddcb2a1d118" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게뜨종암점</strong><br>주소: 서울특별시 성북구 종암로 96 (종암동)<br></div></div>`)[0];
+                popup_3fa8ea3c971b4778efccc3f1aa029e0f.setContent(html_bbfb71f325b4dd7a40d05ddcb2a1d118);
+            
+        
+
+        circle_eee61c26a48a488adc4d886384859607.bindPopup(popup_3fa8ea3c971b4778efccc3f1aa029e0f)
+        ;
+
+        
+    
+    
+            circle_eee61c26a48a488adc4d886384859607.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9a8f0c97d78126b79620ee21ddc7b8e3 = L.circle(
+                [37.610303297674974, 127.05439049251389],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_629b79f9c80018d63d5cb5264c88ca91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29035ea6a5c9b9bc4cc8ed9105571250 = $(`<div id="html_29035ea6a5c9b9bc4cc8ed9105571250" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게트</strong><br>주소: 서울특별시 성북구 돌곶이로 77 (석관동)<br></div></div>`)[0];
+                popup_629b79f9c80018d63d5cb5264c88ca91.setContent(html_29035ea6a5c9b9bc4cc8ed9105571250);
+            
+        
+
+        circle_9a8f0c97d78126b79620ee21ddc7b8e3.bindPopup(popup_629b79f9c80018d63d5cb5264c88ca91)
+        ;
+
+        
+    
+    
+            circle_9a8f0c97d78126b79620ee21ddc7b8e3.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_352dc4557f30c0a6aafb74767906c7f5 = L.circle(
+                [37.606771275447876, 127.03177895546847],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_4f39112c1d59a5738219c0baf9ad4800 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d80ad86d8e7583153d437a9da1f25769 = $(`<div id="html_d80ad86d8e7583153d437a9da1f25769" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>정승만베이커리</strong><br>주소: 서울특별시 성북구 오패산로13길 33 (하월곡동)<br></div></div>`)[0];
+                popup_4f39112c1d59a5738219c0baf9ad4800.setContent(html_d80ad86d8e7583153d437a9da1f25769);
+            
+        
+
+        circle_352dc4557f30c0a6aafb74767906c7f5.bindPopup(popup_4f39112c1d59a5738219c0baf9ad4800)
+        ;
+
+        
+    
+    
+            circle_352dc4557f30c0a6aafb74767906c7f5.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_dbfe08333a01f8e625123cf2a11faad1 = L.circle(
+                [37.609776369359636, 127.01593882493214],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_25409a01ead4d09f910021a8d254d8f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a42d5196e646d1ed04a941cd7e7c6c8e = $(`<div id="html_a42d5196e646d1ed04a941cd7e7c6c8e" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>블록베이커리 길음점</strong><br>주소: 서울특별시 성북구 길음로13길 22 (길음동, 길음7구역 두산위브아파트 제상가동 110호)<br></div></div>`)[0];
+                popup_25409a01ead4d09f910021a8d254d8f0.setContent(html_a42d5196e646d1ed04a941cd7e7c6c8e);
+            
+        
+
+        circle_dbfe08333a01f8e625123cf2a11faad1.bindPopup(popup_25409a01ead4d09f910021a8d254d8f0)
+        ;
+
+        
+    
+    
+            circle_dbfe08333a01f8e625123cf2a11faad1.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d9c16c9e9b8e868c55d66eb1a817bd8b = L.circle(
+                [37.58276365446568, 127.00736430801435],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_d897b8c5e78915f2d951f305bb92cac8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d92e6b7fb99ef0c60d532105ccdc63bc = $(`<div id="html_d92e6b7fb99ef0c60d532105ccdc63bc" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>빵빵한연구소</strong><br>주소: 서울특별시 성북구 삼선교로16길 116, 2층 (삼선동2가, 한성대학교 상상관)<br></div></div>`)[0];
+                popup_d897b8c5e78915f2d951f305bb92cac8.setContent(html_d92e6b7fb99ef0c60d532105ccdc63bc);
+            
+        
+
+        circle_d9c16c9e9b8e868c55d66eb1a817bd8b.bindPopup(popup_d897b8c5e78915f2d951f305bb92cac8)
+        ;
+
+        
+    
+    
+            circle_d9c16c9e9b8e868c55d66eb1a817bd8b.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0a850cad4b6e106ffa6428830b7054bb = L.circle(
+                [37.606753394462565, 127.03360323029352],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_ea8052a8c50ea868104b5bf26d3a2022 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1beabe5e8ad3980220a2753a3d33358e = $(`<div id="html_1beabe5e8ad3980220a2753a3d33358e" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바깨드월곡두산</strong><br>주소: 서울특별시 성북구 오패산로 51 (하월곡동,(1층))<br></div></div>`)[0];
+                popup_ea8052a8c50ea868104b5bf26d3a2022.setContent(html_1beabe5e8ad3980220a2753a3d33358e);
+            
+        
+
+        circle_0a850cad4b6e106ffa6428830b7054bb.bindPopup(popup_ea8052a8c50ea868104b5bf26d3a2022)
+        ;
+
+        
+    
+    
+            circle_0a850cad4b6e106ffa6428830b7054bb.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a93f442ce3c032b6abd4232ccde4cdb5 = L.circle(
+                [37.604044112733405, 127.0371990454693],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_05b469ef15319ab8a03eb4f4732ea167 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b77d276aaf5eef89379deaa7f651bd3b = $(`<div id="html_b77d276aaf5eef89379deaa7f651bd3b" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>장베이커리</strong><br>주소: 서울특별시 성북구 오패산로4길 46 (하월곡동, 27-124)<br></div></div>`)[0];
+                popup_05b469ef15319ab8a03eb4f4732ea167.setContent(html_b77d276aaf5eef89379deaa7f651bd3b);
+            
+        
+
+        circle_a93f442ce3c032b6abd4232ccde4cdb5.bindPopup(popup_05b469ef15319ab8a03eb4f4732ea167)
+        ;
+
+        
+    
+    
+            circle_a93f442ce3c032b6abd4232ccde4cdb5.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_489496d959587bd80da56928febe7bcc = L.circle(
+                [37.588749930201324, 127.02948334277072],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_55ed791cbc8498ccbedb7d811c65368f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e22d54416f7a81e0cecd0b7a8e46b4c4 = $(`<div id="html_e22d54416f7a81e0cecd0b7a8e46b4c4" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>고대빵</strong><br>주소: 서울특별시 성북구 인촌로 99-14 (안암동5가,외23필지)<br></div></div>`)[0];
+                popup_55ed791cbc8498ccbedb7d811c65368f.setContent(html_e22d54416f7a81e0cecd0b7a8e46b4c4);
+            
+        
+
+        circle_489496d959587bd80da56928febe7bcc.bindPopup(popup_55ed791cbc8498ccbedb7d811c65368f)
+        ;
+
+        
+    
+    
+            circle_489496d959587bd80da56928febe7bcc.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_230f0872abf44456a3eec0cca757899e = L.circle(
+                [37.58583492676003, 127.02660781952586],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_3b396ae7ed8417e6448d95a33566b212 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09c47c99e325c09e5877ac7330acc3c0 = $(`<div id="html_09c47c99e325c09e5877ac7330acc3c0" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게뜨 안암역점</strong><br>주소: 서울특별시 성북구 고려대로24길 9, 1층 (안암동5가)<br></div></div>`)[0];
+                popup_3b396ae7ed8417e6448d95a33566b212.setContent(html_09c47c99e325c09e5877ac7330acc3c0);
+            
+        
+
+        circle_230f0872abf44456a3eec0cca757899e.bindPopup(popup_3b396ae7ed8417e6448d95a33566b212)
+        ;
+
+        
+    
+    
+            circle_230f0872abf44456a3eec0cca757899e.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1b14fb75852225ee3a267d75997b1458 = L.circle(
+                [37.5933373234215, 127.01367415212096],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_8177077dda6d59407e5805f556a64674 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75ffe920bb9246fe1c96fd039c5326a6 = $(`<div id="html_75ffe920bb9246fe1c96fd039c5326a6" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>아리랑 빵집</strong><br>주소: 서울특별시 성북구 아리랑로 6 (동선동4가)<br></div></div>`)[0];
+                popup_8177077dda6d59407e5805f556a64674.setContent(html_75ffe920bb9246fe1c96fd039c5326a6);
+            
+        
+
+        circle_1b14fb75852225ee3a267d75997b1458.bindPopup(popup_8177077dda6d59407e5805f556a64674)
+        ;
+
+        
+    
+    
+            circle_1b14fb75852225ee3a267d75997b1458.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_cf2f56864bcdf96de8e5715701fa4c8a = L.circle(
+                [37.591741800014645, 127.01366614924349],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_b0f682737d30b79265d1c1591c761dc8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99ef6fc2097ff0008b2afeefdce58fd6 = $(`<div id="html_99ef6fc2097ff0008b2afeefdce58fd6" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>빵굼터착한빵집</strong><br>주소: 서울특별시 성북구 동소문로20길 18 (동소문동5가)<br></div></div>`)[0];
+                popup_b0f682737d30b79265d1c1591c761dc8.setContent(html_99ef6fc2097ff0008b2afeefdce58fd6);
+            
+        
+
+        circle_cf2f56864bcdf96de8e5715701fa4c8a.bindPopup(popup_b0f682737d30b79265d1c1591c761dc8)
+        ;
+
+        
+    
+    
+            circle_cf2f56864bcdf96de8e5715701fa4c8a.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f4d52d4855736315d8de881fb4146532 = L.circle(
+                [37.617037722220594, 127.00036239231463],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_89173b3578cea8fc5b37740b661aa9e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04aa80b51a11af8ffa5161e92f51a7ce = $(`<div id="html_04aa80b51a11af8ffa5161e92f51a7ce" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게트(정릉청수점)</strong><br>주소: 서울특별시 성북구 보국문로 164 (정릉동)<br></div></div>`)[0];
+                popup_89173b3578cea8fc5b37740b661aa9e9.setContent(html_04aa80b51a11af8ffa5161e92f51a7ce);
+            
+        
+
+        circle_f4d52d4855736315d8de881fb4146532.bindPopup(popup_89173b3578cea8fc5b37740b661aa9e9)
+        ;
+
+        
+    
+    
+            circle_f4d52d4855736315d8de881fb4146532.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fe14cc2ce67d813cccb9614ab362d292 = L.circle(
+                [37.602772662059294, 127.02088586074301],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_cc4982298e5960473aab23b2b2059507 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c117dda16e0e6602d2a67a643be3b13 = $(`<div id="html_7c117dda16e0e6602d2a67a643be3b13" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게트(길음역점)</strong><br>주소: 서울특별시 성북구 동소문로 248 (길음동, 102동 15,21,A,B호)<br></div></div>`)[0];
+                popup_cc4982298e5960473aab23b2b2059507.setContent(html_7c117dda16e0e6602d2a67a643be3b13);
+            
+        
+
+        circle_fe14cc2ce67d813cccb9614ab362d292.bindPopup(popup_cc4982298e5960473aab23b2b2059507)
+        ;
+
+        
+    
+    
+            circle_fe14cc2ce67d813cccb9614ab362d292.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_99f759582fde94bd8339e09489528b35 = L.circle(
+                [37.604755358134945, 127.02014524972421],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_5af2b6225138a8d8582718a9475f64ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b61036714bb7e7b7d340cf088555b19 = $(`<div id="html_6b61036714bb7e7b7d340cf088555b19" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게뜨 길음래미안점</strong><br>주소: 서울특별시 성북구 길음로 20 (길음동,길음뉴타운상가109호117호)<br></div></div>`)[0];
+                popup_5af2b6225138a8d8582718a9475f64ae.setContent(html_6b61036714bb7e7b7d340cf088555b19);
+            
+        
+
+        circle_99f759582fde94bd8339e09489528b35.bindPopup(popup_5af2b6225138a8d8582718a9475f64ae)
+        ;
+
+        
+    
+    
+            circle_99f759582fde94bd8339e09489528b35.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ded34f6bb739cffc324f8a181a6c6d9c = L.circle(
+                [37.588924236089746, 127.0022464046081],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_bc90187d3318f2a06f16c1fed83aabc5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91a745457e6ce4701e50c9f15d0b7cbe = $(`<div id="html_91a745457e6ce4701e50c9f15d0b7cbe" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>나폴레옹</strong><br>주소: 서울특별시 성북구 성북로 7 (성북동1가,외1필지)<br></div></div>`)[0];
+                popup_bc90187d3318f2a06f16c1fed83aabc5.setContent(html_91a745457e6ce4701e50c9f15d0b7cbe);
+            
+        
+
+        circle_ded34f6bb739cffc324f8a181a6c6d9c.bindPopup(popup_bc90187d3318f2a06f16c1fed83aabc5)
+        ;
+
+        
+    
+    
+            circle_ded34f6bb739cffc324f8a181a6c6d9c.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_98e9a5ae3201dec6fae2d6fecc558896 = L.circle(
+                [37.589271905434885, 127.00452354236816],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_3ed3fd01e6cb506c7bad7ec70b10f4bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c717117bed85c50fd01e0b53caf7a81 = $(`<div id="html_3c717117bed85c50fd01e0b53caf7a81" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게트 한성대역점</strong><br>주소: 서울특별시 성북구 동소문로 11 (동소문동1가)<br></div></div>`)[0];
+                popup_3ed3fd01e6cb506c7bad7ec70b10f4bd.setContent(html_3c717117bed85c50fd01e0b53caf7a81);
+            
+        
+
+        circle_98e9a5ae3201dec6fae2d6fecc558896.bindPopup(popup_3ed3fd01e6cb506c7bad7ec70b10f4bd)
+        ;
+
+        
+    
+    
+            circle_98e9a5ae3201dec6fae2d6fecc558896.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9c17cecb982accbeec2d172ab38b59a2 = L.circle(
+                [37.59917982496988, 127.03124491817348],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_9699fb7ec872df2ab93938fe722ac438 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24953c709fe1bc8f0889874a68cabeda = $(`<div id="html_24953c709fe1bc8f0889874a68cabeda" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>복고다방</strong><br>주소: 서울특별시 성북구 종암로 99, 1층 (종암동)<br></div></div>`)[0];
+                popup_9699fb7ec872df2ab93938fe722ac438.setContent(html_24953c709fe1bc8f0889874a68cabeda);
+            
+        
+
+        circle_9c17cecb982accbeec2d172ab38b59a2.bindPopup(popup_9699fb7ec872df2ab93938fe722ac438)
+        ;
+
+        
+    
+    
+            circle_9c17cecb982accbeec2d172ab38b59a2.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1d65ee4bfdbf44bec6eb02fb9488343d = L.circle(
+                [37.59293404447297, 126.99941400641829],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_d02c0e471a00571617ed0dc826413fac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_425950b2b0862fc74fa2f7a690e3f0ae = $(`<div id="html_425950b2b0862fc74fa2f7a690e3f0ae" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>샤뽀블랑</strong><br>주소: 서울특별시 성북구 성북로 60 (성북동, 161-14)<br></div></div>`)[0];
+                popup_d02c0e471a00571617ed0dc826413fac.setContent(html_425950b2b0862fc74fa2f7a690e3f0ae);
+            
+        
+
+        circle_1d65ee4bfdbf44bec6eb02fb9488343d.bindPopup(popup_d02c0e471a00571617ed0dc826413fac)
+        ;
+
+        
+    
+    
+            circle_1d65ee4bfdbf44bec6eb02fb9488343d.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0ae4d116d7a0c69197f85d175b4f83b5 = L.circle(
+                [37.59070177554532, 127.01736930902085],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_14cb612b5170048df671afafb5c528e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b39a8c60fecd9bc22084d7db9df33939 = $(`<div id="html_b39a8c60fecd9bc22084d7db9df33939" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>슬로우브레드파파</strong><br>주소: 서울특별시 성북구 보문로30나길 29 (동선동2가)<br></div></div>`)[0];
+                popup_14cb612b5170048df671afafb5c528e0.setContent(html_b39a8c60fecd9bc22084d7db9df33939);
+            
+        
+
+        circle_0ae4d116d7a0c69197f85d175b4f83b5.bindPopup(popup_14cb612b5170048df671afafb5c528e0)
+        ;
+
+        
+    
+    
+            circle_0ae4d116d7a0c69197f85d175b4f83b5.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bfe04c71e03b273727fd580db0d6a557 = L.circle(
+                [37.62293507459277, 127.0455704459814],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_dc0b1bb6cef3b6a1928583af593c6f3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_931c2bdf67ec0af99a214fba231f480b = $(`<div id="html_931c2bdf67ec0af99a214fba231f480b" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게뜨 장위참누리점</strong><br>주소: 서울특별시 성북구 월계로40길 7 (장위동)<br></div></div>`)[0];
+                popup_dc0b1bb6cef3b6a1928583af593c6f3a.setContent(html_931c2bdf67ec0af99a214fba231f480b);
+            
+        
+
+        circle_bfe04c71e03b273727fd580db0d6a557.bindPopup(popup_dc0b1bb6cef3b6a1928583af593c6f3a)
+        ;
+
+        
+    
+    
+            circle_bfe04c71e03b273727fd580db0d6a557.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_84d7ffa5b42f899cd0840f5c1153ab42 = L.circle(
+                [37.610345587575715, 127.01200779052769],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_51252d9d661603972e9d39d2d287f269 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_891bb102fe1d502c9998bbdb6dd2b3d2 = $(`<div id="html_891bb102fe1d502c9998bbdb6dd2b3d2" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게뜨 정릉서경점</strong><br>주소: 서울특별시 성북구 서경로 78 (정릉동)<br></div></div>`)[0];
+                popup_51252d9d661603972e9d39d2d287f269.setContent(html_891bb102fe1d502c9998bbdb6dd2b3d2);
+            
+        
+
+        circle_84d7ffa5b42f899cd0840f5c1153ab42.bindPopup(popup_51252d9d661603972e9d39d2d287f269)
+        ;
+
+        
+    
+    
+            circle_84d7ffa5b42f899cd0840f5c1153ab42.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_451e610b68455604f5a6090c6d165ed1 = L.circle(
+                [37.5985357800942, 127.03269130925064],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_42f69d812bebe63c61f432cd5b2260fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79f866df03050b79abb5df3e4b6cd319 = $(`<div id="html_79f866df03050b79abb5df3e4b6cd319" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>뚜레쥬르(종암노블레스)</strong><br>주소: 서울특별시 성북구 종암로 90 (종암동,노블레스타워 노인복지주택 제1층101호)<br></div></div>`)[0];
+                popup_42f69d812bebe63c61f432cd5b2260fa.setContent(html_79f866df03050b79abb5df3e4b6cd319);
+            
+        
+
+        circle_451e610b68455604f5a6090c6d165ed1.bindPopup(popup_42f69d812bebe63c61f432cd5b2260fa)
+        ;
+
+        
+    
+    
+            circle_451e610b68455604f5a6090c6d165ed1.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_20f861d983b02485a47f5f8197905302 = L.circle(
+                [37.61143388043873, 127.03265706780275],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_d4292b192cf65ba9db71ce739ab9ae70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db6af7169400cb88214bb227fc502a82 = $(`<div id="html_db6af7169400cb88214bb227fc502a82" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게트</strong><br>주소: 서울특별시 성북구 월계로 52, 에스엠메디칼 1층 107호 (하월곡동)<br></div></div>`)[0];
+                popup_d4292b192cf65ba9db71ce739ab9ae70.setContent(html_db6af7169400cb88214bb227fc502a82);
+            
+        
+
+        circle_20f861d983b02485a47f5f8197905302.bindPopup(popup_d4292b192cf65ba9db71ce739ab9ae70)
+        ;
+
+        
+    
+    
+            circle_20f861d983b02485a47f5f8197905302.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_144ce6620bfd95344d211a0a540f2f2b = L.circle(
+                [37.601820976664996, 127.03755514654458],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_6439f687977ae5241fbb098ceba7a957 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_955388c452d8c6edb22296c5457549ee = $(`<div id="html_955388c452d8c6edb22296c5457549ee" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>몽블랑제(주)월곡점</strong><br>주소: 서울특별시 성북구 화랑로 76 (하월곡동,외 72필지 (지하1층))<br></div></div>`)[0];
+                popup_6439f687977ae5241fbb098ceba7a957.setContent(html_955388c452d8c6edb22296c5457549ee);
+            
+        
+
+        circle_144ce6620bfd95344d211a0a540f2f2b.bindPopup(popup_6439f687977ae5241fbb098ceba7a957)
+        ;
+
+        
+    
+    
+            circle_144ce6620bfd95344d211a0a540f2f2b.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_52f92990307fac193c91f06bed31b03a = L.circle(
+                [37.609776369359636, 127.01593882493214],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_133896fb223d4374bf985753d02fd7f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2d58349c8fdf81a6387c98bbc361d22 = $(`<div id="html_c2d58349c8fdf81a6387c98bbc361d22" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>뚜레쥬르(길음뉴타운점)</strong><br>주소: 서울특별시 성북구 길음로13길 22 (길음동, 두산@상가 지하2층20~21호)<br></div></div>`)[0];
+                popup_133896fb223d4374bf985753d02fd7f6.setContent(html_c2d58349c8fdf81a6387c98bbc361d22);
+            
+        
+
+        circle_52f92990307fac193c91f06bed31b03a.bindPopup(popup_133896fb223d4374bf985753d02fd7f6)
+        ;
+
+        
+    
+    
+            circle_52f92990307fac193c91f06bed31b03a.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7861655e7978aff8695a6242298bfaad = L.circle(
+                [37.590898684335805, 127.0163884894555],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_e041af518ecd69452d780f052c09cb07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e11159147db10aef56aff0cd65a40029 = $(`<div id="html_e11159147db10aef56aff0cd65a40029" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>메종 드 루즈</strong><br>주소: 서울특별시 성북구 보문로34길 68-5, 1층 (동선동2가)<br></div></div>`)[0];
+                popup_e041af518ecd69452d780f052c09cb07.setContent(html_e11159147db10aef56aff0cd65a40029);
+            
+        
+
+        circle_7861655e7978aff8695a6242298bfaad.bindPopup(popup_e041af518ecd69452d780f052c09cb07)
+        ;
+
+        
+    
+    
+            circle_7861655e7978aff8695a6242298bfaad.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4432bde907e91c4b49eae310c4da1f11 = L.circle(
+                [37.60652497882643, 127.02749113887567],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_2a189829311619b93050429d570fa936 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9326282aaac7d248e5567c2d503b095 = $(`<div id="html_b9326282aaac7d248e5567c2d503b095" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>마일라</strong><br>주소: 서울특별시 성북구 동소문로44길 43, 1층 102호 (하월곡동, 힐스테이트)<br></div></div>`)[0];
+                popup_2a189829311619b93050429d570fa936.setContent(html_b9326282aaac7d248e5567c2d503b095);
+            
+        
+
+        circle_4432bde907e91c4b49eae310c4da1f11.bindPopup(popup_2a189829311619b93050429d570fa936)
+        ;
+
+        
+    
+    
+            circle_4432bde907e91c4b49eae310c4da1f11.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_261a9ef5f544d04ceaec91774455f9ea = L.circle(
+                [37.613442070085924, 127.0620601494015],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_d975ea46a9bb6b36a9912af77ad4f002 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6b85ce55c922057cbd90da8ccebe410 = $(`<div id="html_d6b85ce55c922057cbd90da8ccebe410" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게뜨(석계두산점)</strong><br>주소: 서울특별시 성북구 한천로78길 67 (석관동,(1층))<br></div></div>`)[0];
+                popup_d975ea46a9bb6b36a9912af77ad4f002.setContent(html_d6b85ce55c922057cbd90da8ccebe410);
+            
+        
+
+        circle_261a9ef5f544d04ceaec91774455f9ea.bindPopup(popup_d975ea46a9bb6b36a9912af77ad4f002)
+        ;
+
+        
+    
+    
+            circle_261a9ef5f544d04ceaec91774455f9ea.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2fd60f790e488cf3d501cda3a18cec17 = L.circle(
+                [37.606429511588686, 127.02856916291913],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_03e3cfb8661059508bc2f84372411948 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_751ee1c91d2fc925719f5a1fccdeb6e1 = $(`<div id="html_751ee1c91d2fc925719f5a1fccdeb6e1" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게뜨까페하월곡동일점</strong><br>주소: 서울특별시 성북구 종암로 186 (하월곡동)<br></div></div>`)[0];
+                popup_03e3cfb8661059508bc2f84372411948.setContent(html_751ee1c91d2fc925719f5a1fccdeb6e1);
+            
+        
+
+        circle_2fd60f790e488cf3d501cda3a18cec17.bindPopup(popup_03e3cfb8661059508bc2f84372411948)
+        ;
+
+        
+    
+    
+            circle_2fd60f790e488cf3d501cda3a18cec17.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1a3093cde633ae080496de41890eccee = L.circle(
+                [37.62054686319001, 127.04411186565662],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_2df075c871fd51acdb6e3d31359a0da2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e6e5c54601f35535fe3d94f8033727a = $(`<div id="html_8e6e5c54601f35535fe3d94f8033727a" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>뚜레쥬르 장위뉴타운</strong><br>주소: 서울특별시 성북구 월계로36길 27, 상가동 1층 108, 109, 110호 (장위동, 꿈의숲대명루첸아파트)<br></div></div>`)[0];
+                popup_2df075c871fd51acdb6e3d31359a0da2.setContent(html_8e6e5c54601f35535fe3d94f8033727a);
+            
+        
+
+        circle_1a3093cde633ae080496de41890eccee.bindPopup(popup_2df075c871fd51acdb6e3d31359a0da2)
+        ;
+
+        
+    
+    
+            circle_1a3093cde633ae080496de41890eccee.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_437a53969e33c5193d008ae4ac1bcbd6 = L.circle(
+                [37.58957821920592, 127.01271719452396],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_d6928ecc01155d0ac5f1dba8352d2252 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24aefd87ffffc398f6d833a5effb2fb2 = $(`<div id="html_24aefd87ffffc398f6d833a5effb2fb2" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>베이커리 이씨네빵집</strong><br>주소: 서울특별시 성북구 보문로 173-2, 1층 (삼선동5가)<br></div></div>`)[0];
+                popup_d6928ecc01155d0ac5f1dba8352d2252.setContent(html_24aefd87ffffc398f6d833a5effb2fb2);
+            
+        
+
+        circle_437a53969e33c5193d008ae4ac1bcbd6.bindPopup(popup_d6928ecc01155d0ac5f1dba8352d2252)
+        ;
+
+        
+    
+    
+            circle_437a53969e33c5193d008ae4ac1bcbd6.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_eb3038eaea23c7d518bdb55bdb81c90d = L.circle(
+                [37.61242430363414, 127.02437451103032],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_eec958b30dd3fa9fe13266a6ddd0476f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee11c8c1255f91ca249cb95c37fe46e0 = $(`<div id="html_ee11c8c1255f91ca249cb95c37fe46e0" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>르가르송파티시에(Le garcon patissier)</strong><br>주소: 서울특별시 성북구 숭인로 50, 1동 지하2층 1125호 (길음동, 래미안길음센터피스)<br></div></div>`)[0];
+                popup_eec958b30dd3fa9fe13266a6ddd0476f.setContent(html_ee11c8c1255f91ca249cb95c37fe46e0);
+            
+        
+
+        circle_eb3038eaea23c7d518bdb55bdb81c90d.bindPopup(popup_eec958b30dd3fa9fe13266a6ddd0476f)
+        ;
+
+        
+    
+    
+            circle_eb3038eaea23c7d518bdb55bdb81c90d.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8f2feaf5921ca4793d5116b556e0fed9 = L.circle(
+                [37.59589492578456, 127.02050698826154],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_1cf340edabc0a3ac502ceb7460a1a7fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ceab64d1286f875b04a7f6a834b0b42 = $(`<div id="html_5ceab64d1286f875b04a7f6a834b0b42" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>블레스 제빵소</strong><br>주소: 서울특별시 성북구 북악산로 913, 상가동 107호 (돈암동, 풍림아파트)<br></div></div>`)[0];
+                popup_1cf340edabc0a3ac502ceb7460a1a7fd.setContent(html_5ceab64d1286f875b04a7f6a834b0b42);
+            
+        
+
+        circle_8f2feaf5921ca4793d5116b556e0fed9.bindPopup(popup_1cf340edabc0a3ac502ceb7460a1a7fd)
+        ;
+
+        
+    
+    
+            circle_8f2feaf5921ca4793d5116b556e0fed9.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_671409b26e19388635243b103553b01d = L.circle(
+                [37.61649727734174, 127.00089378526789],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_3fb0b67efb5f6dca6a6c8c027d15086d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fe6037e905d4606f28202c35f388091 = $(`<div id="html_8fe6037e905d4606f28202c35f388091" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>모닝베이커리</strong><br>주소: 서울특별시 성북구 보국문로 157, 가동 1층5호호 (정릉동)<br></div></div>`)[0];
+                popup_3fb0b67efb5f6dca6a6c8c027d15086d.setContent(html_8fe6037e905d4606f28202c35f388091);
+            
+        
+
+        circle_671409b26e19388635243b103553b01d.bindPopup(popup_3fb0b67efb5f6dca6a6c8c027d15086d)
+        ;
+
+        
+    
+    
+            circle_671409b26e19388635243b103553b01d.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2741438d5717e5f603edc78b7392b2ff = L.circle(
+                [37.61024094924682, 127.0053594074745],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_ac43eced14a8bb6a4c90bacbf1400a82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_797f6833cb85cb28aa4759a430b71c9c = $(`<div id="html_797f6833cb85cb28aa4759a430b71c9c" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>이루카 베이커리</strong><br>주소: 서울특별시 성북구 솔샘로6마길 21, 1층 (정릉동)<br></div></div>`)[0];
+                popup_ac43eced14a8bb6a4c90bacbf1400a82.setContent(html_797f6833cb85cb28aa4759a430b71c9c);
+            
+        
+
+        circle_2741438d5717e5f603edc78b7392b2ff.bindPopup(popup_ac43eced14a8bb6a4c90bacbf1400a82)
+        ;
+
+        
+    
+    
+            circle_2741438d5717e5f603edc78b7392b2ff.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_24da9c33560c61c1189435e3023235d9 = L.circle(
+                [37.60841644988915, 127.00728787420383],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_9f7af867a30a84f5dad2cc3b2bda7b14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78f49f72f148d8be53b56eb5c75f3aed = $(`<div id="html_78f49f72f148d8be53b56eb5c75f3aed" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게뜨 정릉점</strong><br>주소: 서울특별시 성북구 보국문로 40-3 (정릉동)<br></div></div>`)[0];
+                popup_9f7af867a30a84f5dad2cc3b2bda7b14.setContent(html_78f49f72f148d8be53b56eb5c75f3aed);
+            
+        
+
+        circle_24da9c33560c61c1189435e3023235d9.bindPopup(popup_9f7af867a30a84f5dad2cc3b2bda7b14)
+        ;
+
+        
+    
+    
+            circle_24da9c33560c61c1189435e3023235d9.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9bbb676e6785e08ab3484aa632323942 = L.circle(
+                [37.60776397073749, 126.99670806810626],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_e8a7eb54efea62a02c77a2af9aa9ec60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ec48dae2a4fbeeb94741b85647925b6 = $(`<div id="html_6ec48dae2a4fbeeb94741b85647925b6" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게뜨(정릉국민대점)</strong><br>주소: 서울특별시 성북구 정릉로10길 37 (정릉동,(지상1층))<br></div></div>`)[0];
+                popup_e8a7eb54efea62a02c77a2af9aa9ec60.setContent(html_6ec48dae2a4fbeeb94741b85647925b6);
+            
+        
+
+        circle_9bbb676e6785e08ab3484aa632323942.bindPopup(popup_e8a7eb54efea62a02c77a2af9aa9ec60)
+        ;
+
+        
+    
+    
+            circle_9bbb676e6785e08ab3484aa632323942.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e1281a35784ca0c41ad6bb702cc50653 = L.circle(
+                [37.60685213464058, 127.00760235223585],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_58f891ab182c3e6c08d6521b081da570 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d2b12e5b7881c6990054410291b89b5 = $(`<div id="html_4d2b12e5b7881c6990054410291b89b5" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>그랑프리</strong><br>주소: 서울특별시 성북구 보국문로 23-4, 1층 (정릉동)<br></div></div>`)[0];
+                popup_58f891ab182c3e6c08d6521b081da570.setContent(html_4d2b12e5b7881c6990054410291b89b5);
+            
+        
+
+        circle_e1281a35784ca0c41ad6bb702cc50653.bindPopup(popup_58f891ab182c3e6c08d6521b081da570)
+        ;
+
+        
+    
+    
+            circle_e1281a35784ca0c41ad6bb702cc50653.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a56f5a9ab00292f4fe7b67566a9f781d = L.circle(
+                [37.614391369266876, 127.03822306792797],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_c377e536f262b0cda5296bb557ea8f0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1054df2aaffd4af4f16517ae1f061146 = $(`<div id="html_1054df2aaffd4af4f16517ae1f061146" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게뜨 장위동방점</strong><br>주소: 서울특별시 성북구 장위로 39 (장위동)<br></div></div>`)[0];
+                popup_c377e536f262b0cda5296bb557ea8f0f.setContent(html_1054df2aaffd4af4f16517ae1f061146);
+            
+        
+
+        circle_a56f5a9ab00292f4fe7b67566a9f781d.bindPopup(popup_c377e536f262b0cda5296bb557ea8f0f)
+        ;
+
+        
+    
+    
+            circle_a56f5a9ab00292f4fe7b67566a9f781d.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8faedfcd36d0bc458bb81ac8be1ca6d2 = L.circle(
+                [37.60252676488022, 127.01046932644618],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_3e37ef2021dea5f562e17b240ef71c0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a2d20684a0aec6c1d5c17a74c9b4801 = $(`<div id="html_6a2d20684a0aec6c1d5c17a74c9b4801" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>뚜레쥬르(아리랑삼거리점)</strong><br>주소: 서울특별시 성북구 아리랑로 119 (정릉동,(지상1층))<br></div></div>`)[0];
+                popup_3e37ef2021dea5f562e17b240ef71c0d.setContent(html_6a2d20684a0aec6c1d5c17a74c9b4801);
+            
+        
+
+        circle_8faedfcd36d0bc458bb81ac8be1ca6d2.bindPopup(popup_3e37ef2021dea5f562e17b240ef71c0d)
+        ;
+
+        
+    
+    
+            circle_8faedfcd36d0bc458bb81ac8be1ca6d2.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f0625a92b0ec5384b55a613a182e52c4 = L.circle(
+                [37.585069861826206, 127.01624980950065],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_bf13a4247b5b82fa24a825cacdcdd4a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b387b1d1ec7463ab36f670d1a81c9bd8 = $(`<div id="html_b387b1d1ec7463ab36f670d1a81c9bd8" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>뚜레주르보문역점</strong><br>주소: 서울특별시 성북구 지봉로 184 (보문동2가,지상1층)<br></div></div>`)[0];
+                popup_bf13a4247b5b82fa24a825cacdcdd4a6.setContent(html_b387b1d1ec7463ab36f670d1a81c9bd8);
+            
+        
+
+        circle_f0625a92b0ec5384b55a613a182e52c4.bindPopup(popup_bf13a4247b5b82fa24a825cacdcdd4a6)
+        ;
+
+        
+    
+    
+            circle_f0625a92b0ec5384b55a613a182e52c4.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b908ee8e8ba2b0e9ddf49be2c3682017 = L.circle(
+                [37.60966650447878, 127.05514819657162],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_2ac4ef3b72061422a9e0c134051839bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95260a5894a6fcfaa37c6ce41b3d92f9 = $(`<div id="html_95260a5894a6fcfaa37c6ce41b3d92f9" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>부자당</strong><br>주소: 서울특별시 성북구 돌곶이로 67, 1층 (석관동)<br></div></div>`)[0];
+                popup_2ac4ef3b72061422a9e0c134051839bf.setContent(html_95260a5894a6fcfaa37c6ce41b3d92f9);
+            
+        
+
+        circle_b908ee8e8ba2b0e9ddf49be2c3682017.bindPopup(popup_2ac4ef3b72061422a9e0c134051839bf)
+        ;
+
+        
+    
+    
+            circle_b908ee8e8ba2b0e9ddf49be2c3682017.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_64ad684646df6cb61f47e2408eb5c3cc = L.circle(
+                [37.60273477612038, 127.03847906786602],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_040bf4587649e68afccb2a727f0dc469 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d9b009b5c226d0d490ccccbe7beb79d = $(`<div id="html_3d9b009b5c226d0d490ccccbe7beb79d" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게뜨 동덕여대점</strong><br>주소: 서울특별시 성북구 화랑로11길 7 (하월곡동)<br></div></div>`)[0];
+                popup_040bf4587649e68afccb2a727f0dc469.setContent(html_3d9b009b5c226d0d490ccccbe7beb79d);
+            
+        
+
+        circle_64ad684646df6cb61f47e2408eb5c3cc.bindPopup(popup_040bf4587649e68afccb2a727f0dc469)
+        ;
+
+        
+    
+    
+            circle_64ad684646df6cb61f47e2408eb5c3cc.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fb862814000e3070aafa8c2e26c5990b = L.circle(
+                [37.588749930201324, 127.02948334277072],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_1e0fbc670226246e22fde07a78edbadc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_817290c18c43fc9d751b3521f87df8e5 = $(`<div id="html_817290c18c43fc9d751b3521f87df8e5" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>고대빵</strong><br>주소: 서울특별시 성북구 인촌로 99-14 (안암동5가,외30필지 애기능광장)<br></div></div>`)[0];
+                popup_1e0fbc670226246e22fde07a78edbadc.setContent(html_817290c18c43fc9d751b3521f87df8e5);
+            
+        
+
+        circle_fb862814000e3070aafa8c2e26c5990b.bindPopup(popup_1e0fbc670226246e22fde07a78edbadc)
+        ;
+
+        
+    
+    
+            circle_fb862814000e3070aafa8c2e26c5990b.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_18b32cf2904061160aee5ee2b85d8808 = L.circle(
+                [37.602888398451455, 127.02880628023134],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_4ab79c44ad09ccf97f870192b1e491c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8d185153a9bb1376ee48edebf3cf591 = $(`<div id="html_c8d185153a9bb1376ee48edebf3cf591" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게뜨(종암사거리점)</strong><br>주소: 서울특별시 성북구 종암로27길 18, 1층 (종암동)<br></div></div>`)[0];
+                popup_4ab79c44ad09ccf97f870192b1e491c1.setContent(html_c8d185153a9bb1376ee48edebf3cf591);
+            
+        
+
+        circle_18b32cf2904061160aee5ee2b85d8808.bindPopup(popup_4ab79c44ad09ccf97f870192b1e491c1)
+        ;
+
+        
+    
+    
+            circle_18b32cf2904061160aee5ee2b85d8808.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e8d0cb8d885dc02b050ce0f56b3d0c9a = L.circle(
+                [37.61085634829917, 127.02683784095623],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_7fe56846f1a1b75e2919a65229def2e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f25f06bec4d34c2b623872038b51baa = $(`<div id="html_9f25f06bec4d34c2b623872038b51baa" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>(주)신세계푸드 이베이커리 미아점</strong><br>주소: 서울특별시 성북구 도봉로 17, 지하1층 (길음동, E마트 (길음점))<br></div></div>`)[0];
+                popup_7fe56846f1a1b75e2919a65229def2e3.setContent(html_9f25f06bec4d34c2b623872038b51baa);
+            
+        
+
+        circle_e8d0cb8d885dc02b050ce0f56b3d0c9a.bindPopup(popup_7fe56846f1a1b75e2919a65229def2e3)
+        ;
+
+        
+    
+    
+            circle_e8d0cb8d885dc02b050ce0f56b3d0c9a.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_aca67ad3e3bb46b20a4f5f89b8f6a807 = L.circle(
+                [37.60942564023974, 127.0579875085978],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_d05c5ae5d7432b68dc72063a5e308beb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d3c82b043dda7b286b4e9818c24ad2a = $(`<div id="html_2d3c82b043dda7b286b4e9818c24ad2a" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>빵이 가득한 집</strong><br>주소: 서울특별시 성북구 돌곶이로22나길 26 (석관동)<br></div></div>`)[0];
+                popup_d05c5ae5d7432b68dc72063a5e308beb.setContent(html_2d3c82b043dda7b286b4e9818c24ad2a);
+            
+        
+
+        circle_aca67ad3e3bb46b20a4f5f89b8f6a807.bindPopup(popup_d05c5ae5d7432b68dc72063a5e308beb)
+        ;
+
+        
+    
+    
+            circle_aca67ad3e3bb46b20a4f5f89b8f6a807.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_71b5e1c6b59f41f1b984b1d5dde4771d = L.circle(
+                [37.60780191761074, 126.99663691248381],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_3f0880fdc5765ad402e87d868b7247f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71c73a6aa16cb229890f24a1bb1fdc02 = $(`<div id="html_71c73a6aa16cb229890f24a1bb1fdc02" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게트 정릉국민대점 2호</strong><br>주소: 서울특별시 성북구 정릉로10길 39, 1층 (정릉동)<br></div></div>`)[0];
+                popup_3f0880fdc5765ad402e87d868b7247f6.setContent(html_71c73a6aa16cb229890f24a1bb1fdc02);
+            
+        
+
+        circle_71b5e1c6b59f41f1b984b1d5dde4771d.bindPopup(popup_3f0880fdc5765ad402e87d868b7247f6)
+        ;
+
+        
+    
+    
+            circle_71b5e1c6b59f41f1b984b1d5dde4771d.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_81b44ee6f804585e3b18fd498cec624a = L.circle(
+                [37.592560840418884, 127.01478793213217],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_66a087e8e09298867918aa1c5e9e42a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2752586c88386aef75fcbaad4669f75 = $(`<div id="html_b2752586c88386aef75fcbaad4669f75" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>팔공티 성신여대점</strong><br>주소: 서울특별시 성북구 동소문로22길 11, 1층 102호 (동선동1가)<br></div></div>`)[0];
+                popup_66a087e8e09298867918aa1c5e9e42a9.setContent(html_b2752586c88386aef75fcbaad4669f75);
+            
+        
+
+        circle_81b44ee6f804585e3b18fd498cec624a.bindPopup(popup_66a087e8e09298867918aa1c5e9e42a9)
+        ;
+
+        
+    
+    
+            circle_81b44ee6f804585e3b18fd498cec624a.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d87afb0daeebe170141e6b44ca0e342b = L.circle(
+                [37.60942366804972, 127.00369976795517],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_472c58018436aeaae0064aa58952f0a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5136d915a43e1972eb0bbc40d00cb819 = $(`<div id="html_5136d915a43e1972eb0bbc40d00cb819" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>쥬르드쥬아</strong><br>주소: 서울특별시 성북구 솔샘로6길 24-1, 101호 (정릉동, 삼성홈타운 A동 101호)<br></div></div>`)[0];
+                popup_472c58018436aeaae0064aa58952f0a6.setContent(html_5136d915a43e1972eb0bbc40d00cb819);
+            
+        
+
+        circle_d87afb0daeebe170141e6b44ca0e342b.bindPopup(popup_472c58018436aeaae0064aa58952f0a6)
+        ;
+
+        
+    
+    
+            circle_d87afb0daeebe170141e6b44ca0e342b.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c963317ba4b10a35375d922a454a8026 = L.circle(
+                [37.605052403184345, 127.02810592321045],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_7818fb6440e8810074230881c78bfafd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8dab9c261c79d6f99f6ff967e92fefd9 = $(`<div id="html_8dab9c261c79d6f99f6ff967e92fefd9" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>(주)신세계푸드 이베이커리 하월곡점</strong><br>주소: 서울특별시 성북구 종암로 167, 지하2층 (하월곡동)<br></div></div>`)[0];
+                popup_7818fb6440e8810074230881c78bfafd.setContent(html_8dab9c261c79d6f99f6ff967e92fefd9);
+            
+        
+
+        circle_c963317ba4b10a35375d922a454a8026.bindPopup(popup_7818fb6440e8810074230881c78bfafd)
+        ;
+
+        
+    
+    
+            circle_c963317ba4b10a35375d922a454a8026.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d57e61962481d1994fd7a8ec5b5509a7 = L.circle(
+                [37.58850878826136, 127.00560096238905],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_a6081178bd17312dc0af4750c5099624 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1a1f7eef35d98688bca51f919203b53 = $(`<div id="html_a1a1f7eef35d98688bca51f919203b53" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>빵굽는아저씨</strong><br>주소: 서울특별시 성북구 동소문로6길 17, 1층 (동소문동2가)<br></div></div>`)[0];
+                popup_a6081178bd17312dc0af4750c5099624.setContent(html_a1a1f7eef35d98688bca51f919203b53);
+            
+        
+
+        circle_d57e61962481d1994fd7a8ec5b5509a7.bindPopup(popup_a6081178bd17312dc0af4750c5099624)
+        ;
+
+        
+    
+    
+            circle_d57e61962481d1994fd7a8ec5b5509a7.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1441ce6f9f0a17a2cdd35d98624f538d = L.circle(
+                [37.60073397654048, 127.00961474898881],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_48b854a2e59605927fb4ef25afe48bf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8b21c0b1a044943809fdd59f209cd1d = $(`<div id="html_a8b21c0b1a044943809fdd59f209cd1d" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게뜨 아리랑고개점</strong><br>주소: 서울특별시 성북구 아리랑로 89 (돈암동, 상가동 107호,108호)<br></div></div>`)[0];
+                popup_48b854a2e59605927fb4ef25afe48bf2.setContent(html_a8b21c0b1a044943809fdd59f209cd1d);
+            
+        
+
+        circle_1441ce6f9f0a17a2cdd35d98624f538d.bindPopup(popup_48b854a2e59605927fb4ef25afe48bf2)
+        ;
+
+        
+    
+    
+            circle_1441ce6f9f0a17a2cdd35d98624f538d.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_cd6f173325a06c4f1b35647091335b52 = L.circle(
+                [37.5807589525196, 127.01857003990943],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_c8f3531e9a27aa255521b5c77ca2ed4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b849694ac93ea44065be08cfcb9dfe99 = $(`<div id="html_b849694ac93ea44065be08cfcb9dfe99" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>홈플러스베이커리(주)보문점</strong><br>주소: 서울특별시 성북구 보문로 61, 1층 (보문동7가)<br></div></div>`)[0];
+                popup_c8f3531e9a27aa255521b5c77ca2ed4d.setContent(html_b849694ac93ea44065be08cfcb9dfe99);
+            
+        
+
+        circle_cd6f173325a06c4f1b35647091335b52.bindPopup(popup_c8f3531e9a27aa255521b5c77ca2ed4d)
+        ;
+
+        
+    
+    
+            circle_cd6f173325a06c4f1b35647091335b52.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7d08f19a955aa2b29a93624fac7d58db = L.circle(
+                [37.60968549464848, 127.01782026476423],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_cc05302cda1767b2047f02f9ac35a3a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d78a3a7b65a104eb166d4f59299982cc = $(`<div id="html_d78a3a7b65a104eb166d4f59299982cc" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>포노포노</strong><br>주소: 서울특별시 성북구 길음로 74, 3동 101호 (길음동, 길음뉴타운상가)<br></div></div>`)[0];
+                popup_cc05302cda1767b2047f02f9ac35a3a8.setContent(html_d78a3a7b65a104eb166d4f59299982cc);
+            
+        
+
+        circle_7d08f19a955aa2b29a93624fac7d58db.bindPopup(popup_cc05302cda1767b2047f02f9ac35a3a8)
+        ;
+
+        
+    
+    
+            circle_7d08f19a955aa2b29a93624fac7d58db.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_100b7eefd473d082959a8e78b09d8fbb = L.circle(
+                [37.60745867649487, 127.04818843659707],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_e1c954c779dab6f1a72e2bf1efc15b6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cce2b0e41a1d2ccf9d3891f34df74452 = $(`<div id="html_cce2b0e41a1d2ccf9d3891f34df74452" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>뚜레쥬르상월곡역</strong><br>주소: 서울특별시 성북구 화랑로 186 (석관동)<br></div></div>`)[0];
+                popup_e1c954c779dab6f1a72e2bf1efc15b6a.setContent(html_cce2b0e41a1d2ccf9d3891f34df74452);
+            
+        
+
+        circle_100b7eefd473d082959a8e78b09d8fbb.bindPopup(popup_e1c954c779dab6f1a72e2bf1efc15b6a)
+        ;
+
+        
+    
+    
+            circle_100b7eefd473d082959a8e78b09d8fbb.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_cae2a0e92399d0e03e853fa60b789ba5 = L.circle(
+                [37.61401236702354, 127.0405214386868],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_b3e1e07962719cce544d42d34020a079 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b21fc5e35ef54a1e58fcce1dc405b81 = $(`<div id="html_2b21fc5e35ef54a1e58fcce1dc405b81" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>씨유 장위동방점</strong><br>주소: 서울특별시 성북구 장위로 59 (장위동,(1층))<br></div></div>`)[0];
+                popup_b3e1e07962719cce544d42d34020a079.setContent(html_2b21fc5e35ef54a1e58fcce1dc405b81);
+            
+        
+
+        circle_cae2a0e92399d0e03e853fa60b789ba5.bindPopup(popup_b3e1e07962719cce544d42d34020a079)
+        ;
+
+        
+    
+    
+            circle_cae2a0e92399d0e03e853fa60b789ba5.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5abbaddb6c77d9528ec252d6359db22c = L.circle(
+                [37.594807830058635, 127.00742864011599],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_1c6e701c9940cdeec9292007f8726d89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ecf64fe9f1fa5821eeef17b8d1debbf = $(`<div id="html_2ecf64fe9f1fa5821eeef17b8d1debbf" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게트(동소문한신점)</strong><br>주소: 서울특별시 성북구 성북로4길 52, 상가417동 1526호,1306호 (돈암동, 한신한진아파트)<br></div></div>`)[0];
+                popup_1c6e701c9940cdeec9292007f8726d89.setContent(html_2ecf64fe9f1fa5821eeef17b8d1debbf);
+            
+        
+
+        circle_5abbaddb6c77d9528ec252d6359db22c.bindPopup(popup_1c6e701c9940cdeec9292007f8726d89)
+        ;
+
+        
+    
+    
+            circle_5abbaddb6c77d9528ec252d6359db22c.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e090f2998b22b08e8a98afb796535314 = L.circle(
+                [37.58536359934675, 127.02632126378116],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_5e83f1b64c2ac03d5cc7a019d96ae6e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a91059740389470ab80fbc30258b0170 = $(`<div id="html_a91059740389470ab80fbc30258b0170" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>뚜레쥬르카페 안암역점</strong><br>주소: 서울특별시 성북구 고려대로24길 20, 지하1층 (안암동5가)<br></div></div>`)[0];
+                popup_5e83f1b64c2ac03d5cc7a019d96ae6e6.setContent(html_a91059740389470ab80fbc30258b0170);
+            
+        
+
+        circle_e090f2998b22b08e8a98afb796535314.bindPopup(popup_5e83f1b64c2ac03d5cc7a019d96ae6e6)
+        ;
+
+        
+    
+    
+            circle_e090f2998b22b08e8a98afb796535314.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6c22b37545d7493196f4a28c416d1b65 = L.circle(
+                [37.593411846032055, 127.03217733243852],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_d51786fc4c1a5794c5df35d00b512944 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e85d5d738a448f9f4c75f9baf152c058 = $(`<div id="html_e85d5d738a448f9f4c75f9baf152c058" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>뚜레쥬르(종암점)</strong><br>주소: 서울특별시 성북구 종암로3길 18, 낙원빌딩 1층 (종암동)<br></div></div>`)[0];
+                popup_d51786fc4c1a5794c5df35d00b512944.setContent(html_e85d5d738a448f9f4c75f9baf152c058);
+            
+        
+
+        circle_6c22b37545d7493196f4a28c416d1b65.bindPopup(popup_d51786fc4c1a5794c5df35d00b512944)
+        ;
+
+        
+    
+    
+            circle_6c22b37545d7493196f4a28c416d1b65.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f711f1145919f8385ee8d97ec39c0857 = L.circle(
+                [37.60755695755859, 127.0208690135078],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_8795651542f87014604b01fb59d30fba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b08d0f827deaa32f1a3f956019bf93e = $(`<div id="html_6b08d0f827deaa32f1a3f956019bf93e" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>독일베이커리</strong><br>주소: 서울특별시 성북구 삼양로 50 (길음동)<br></div></div>`)[0];
+                popup_8795651542f87014604b01fb59d30fba.setContent(html_6b08d0f827deaa32f1a3f956019bf93e);
+            
+        
+
+        circle_f711f1145919f8385ee8d97ec39c0857.bindPopup(popup_8795651542f87014604b01fb59d30fba)
+        ;
+
+        
+    
+    
+            circle_f711f1145919f8385ee8d97ec39c0857.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_10da5a9d92264a204ad954429068c694 = L.circle(
+                [37.60679548078786, 127.04325541335136],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_6858f692b7a949dc9b715a9e0cf1a5fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24e46cd5ffa509ec12a7a5e53bfabcae = $(`<div id="html_24e46cd5ffa509ec12a7a5e53bfabcae" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게뜨(월곡동아지점)</strong><br>주소: 서울특별시 성북구 장월로1길 33 (상월곡동)<br></div></div>`)[0];
+                popup_6858f692b7a949dc9b715a9e0cf1a5fe.setContent(html_24e46cd5ffa509ec12a7a5e53bfabcae);
+            
+        
+
+        circle_10da5a9d92264a204ad954429068c694.bindPopup(popup_6858f692b7a949dc9b715a9e0cf1a5fe)
+        ;
+
+        
+    
+    
+            circle_10da5a9d92264a204ad954429068c694.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_73079cf8ff02b383f5af9155483edbf6 = L.circle(
+                [37.613532123331424, 127.04554761743061],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_b3cd6edbde25d761b63ac0c6a424b833 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b673b63f579a71b44eb3858436e7296 = $(`<div id="html_7b673b63f579a71b44eb3858436e7296" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>또래명과</strong><br>주소: 서울특별시 성북구 장위로 106 (장위동)<br></div></div>`)[0];
+                popup_b3cd6edbde25d761b63ac0c6a424b833.setContent(html_7b673b63f579a71b44eb3858436e7296);
+            
+        
+
+        circle_73079cf8ff02b383f5af9155483edbf6.bindPopup(popup_b3cd6edbde25d761b63ac0c6a424b833)
+        ;
+
+        
+    
+    
+            circle_73079cf8ff02b383f5af9155483edbf6.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_161827da22f34b4a2dff635084025913 = L.circle(
+                [37.60732776984635, 127.02534409480941],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_c451338deb4a034057cc507eb9232c33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bf3d7d39f7d823731bae3a967e4704d = $(`<div id="html_8bf3d7d39f7d823731bae3a967e4704d" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>코코호도(길음점)</strong><br>주소: 서울특별시 성북구 동소문로 303, 1층 (길음동)<br></div></div>`)[0];
+                popup_c451338deb4a034057cc507eb9232c33.setContent(html_8bf3d7d39f7d823731bae3a967e4704d);
+            
+        
+
+        circle_161827da22f34b4a2dff635084025913.bindPopup(popup_c451338deb4a034057cc507eb9232c33)
+        ;
+
+        
+    
+    
+            circle_161827da22f34b4a2dff635084025913.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_cd3488d4c4c65a49f763c1b6aeb6349b = L.circle(
+                [37.603303821566726, 127.01914816141284],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_c081b2fb82b2eb97bd947c1fdeb81fcd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b608605680892db3bd08e6fcb3e6c92b = $(`<div id="html_b608605680892db3bd08e6fcb3e6c92b" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>신라명과 길음뉴타운점</strong><br>주소: 서울특별시 성북구 길음로7길 36-12, 1층 2호 (길음동)<br></div></div>`)[0];
+                popup_c081b2fb82b2eb97bd947c1fdeb81fcd.setContent(html_b608605680892db3bd08e6fcb3e6c92b);
+            
+        
+
+        circle_cd3488d4c4c65a49f763c1b6aeb6349b.bindPopup(popup_c081b2fb82b2eb97bd947c1fdeb81fcd)
+        ;
+
+        
+    
+    
+            circle_cd3488d4c4c65a49f763c1b6aeb6349b.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f614828627c6e68e4d7c7401bbd5c739 = L.circle(
+                [37.596432246808426, 127.03220610374326],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_ae5c4e25c89ffe4c0d46c57b2e8d1497 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4631b4ba7d664a25d296eb833c433db2 = $(`<div id="html_4631b4ba7d664a25d296eb833c433db2" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>빵장수 단팥빵 성북구점</strong><br>주소: 서울특별시 성북구 종암로 69 (종암동, 1층)<br></div></div>`)[0];
+                popup_ae5c4e25c89ffe4c0d46c57b2e8d1497.setContent(html_4631b4ba7d664a25d296eb833c433db2);
+            
+        
+
+        circle_f614828627c6e68e4d7c7401bbd5c739.bindPopup(popup_ae5c4e25c89ffe4c0d46c57b2e8d1497)
+        ;
+
+        
+    
+    
+            circle_f614828627c6e68e4d7c7401bbd5c739.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_87f61107660645245b542bff477d5820 = L.circle(
+                [37.6070330464204, 127.03547544673835],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_ccb77f1b5c6bb1e63d55d5da831aba66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9550c9e8ed8555ccb55ba7d02dfc5263 = $(`<div id="html_9550c9e8ed8555ccb55ba7d02dfc5263" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>뚜레쥬르월곡두산점</strong><br>주소: 서울특별시 성북구 오패산로 46 (하월곡동, 두산위브센트로 1층131,148호)<br></div></div>`)[0];
+                popup_ccb77f1b5c6bb1e63d55d5da831aba66.setContent(html_9550c9e8ed8555ccb55ba7d02dfc5263);
+            
+        
+
+        circle_87f61107660645245b542bff477d5820.bindPopup(popup_ccb77f1b5c6bb1e63d55d5da831aba66)
+        ;
+
+        
+    
+    
+            circle_87f61107660645245b542bff477d5820.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0d53a04fa384dcdfc9ccf9a193f272c1 = L.circle(
+                [37.58563442249593, 127.01610244060974],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_18e6cbb54bb2b6b0941b2de9421feb45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d139385d87ad2dee255201911b72a125 = $(`<div id="html_d139385d87ad2dee255201911b72a125" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게뜨보문역점</strong><br>주소: 서울특별시 성북구 보문로 119 (보문동2가,(지상1층,2층일부))<br></div></div>`)[0];
+                popup_18e6cbb54bb2b6b0941b2de9421feb45.setContent(html_d139385d87ad2dee255201911b72a125);
+            
+        
+
+        circle_0d53a04fa384dcdfc9ccf9a193f272c1.bindPopup(popup_18e6cbb54bb2b6b0941b2de9421feb45)
+        ;
+
+        
+    
+    
+            circle_0d53a04fa384dcdfc9ccf9a193f272c1.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_aa91f3af268631002423bf596017f02f = L.circle(
+                [37.59269485537663, 127.01494309308109],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_df9773a889f786363d298b88b0e95bd6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f137b52cd20d46495df50ae49cce5ddd = $(`<div id="html_f137b52cd20d46495df50ae49cce5ddd" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게트 성신여대점</strong><br>주소: 서울특별시 성북구 동소문로20가길 24 (동선동1가)<br></div></div>`)[0];
+                popup_df9773a889f786363d298b88b0e95bd6.setContent(html_f137b52cd20d46495df50ae49cce5ddd);
+            
+        
+
+        circle_aa91f3af268631002423bf596017f02f.bindPopup(popup_df9773a889f786363d298b88b0e95bd6)
+        ;
+
+        
+    
+    
+            circle_aa91f3af268631002423bf596017f02f.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bd748ed7bee6360f2d6581c2c730bde0 = L.circle(
+                [37.60843265309625, 127.00636511025245],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_09ed9163394e311a0f07908bca10ba47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b20878434a004e17168c19f386e9c99 = $(`<div id="html_7b20878434a004e17168c19f386e9c99" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>이지베이커리</strong><br>주소: 서울특별시 성북구 보국문로11길 11, 1층 (정릉동)<br></div></div>`)[0];
+                popup_09ed9163394e311a0f07908bca10ba47.setContent(html_7b20878434a004e17168c19f386e9c99);
+            
+        
+
+        circle_bd748ed7bee6360f2d6581c2c730bde0.bindPopup(popup_09ed9163394e311a0f07908bca10ba47)
+        ;
+
+        
+    
+    
+            circle_bd748ed7bee6360f2d6581c2c730bde0.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b2bfdb2c100c2ab1cf0edc2fbd803ffd = L.circle(
+                [37.58699911095636, 127.00770925616158],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_7382b778a350ac17b0cb78a475167696 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7dcfe6f345ac0c76dfeddc28848b819 = $(`<div id="html_c7dcfe6f345ac0c76dfeddc28848b819" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>POULSBO(폴스보)</strong><br>주소: 서울특별시 성북구 삼선교로16길 30, 1층 (삼선동2가, 우측)<br></div></div>`)[0];
+                popup_7382b778a350ac17b0cb78a475167696.setContent(html_c7dcfe6f345ac0c76dfeddc28848b819);
+            
+        
+
+        circle_b2bfdb2c100c2ab1cf0edc2fbd803ffd.bindPopup(popup_7382b778a350ac17b0cb78a475167696)
+        ;
+
+        
+    
+    
+            circle_b2bfdb2c100c2ab1cf0edc2fbd803ffd.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_eaf9c1025fdc49ab9212fe956d81daa2 = L.circle(
+                [37.604160489394324, 127.03991907644262],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_cc1c81c59296761bcd3b748d7ead0f52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5059d8446ed889310e2ea77d7366741e = $(`<div id="html_5059d8446ed889310e2ea77d7366741e" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>빵사부 식빵공방 동덕여대점</strong><br>주소: 서울특별시 성북구 장월로1길 113, 지상1층 (하월곡동)<br></div></div>`)[0];
+                popup_cc1c81c59296761bcd3b748d7ead0f52.setContent(html_5059d8446ed889310e2ea77d7366741e);
+            
+        
+
+        circle_eaf9c1025fdc49ab9212fe956d81daa2.bindPopup(popup_cc1c81c59296761bcd3b748d7ead0f52)
+        ;
+
+        
+    
+    
+            circle_eaf9c1025fdc49ab9212fe956d81daa2.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_046634ad2b93657eb67f139a12518dd5 = L.circle(
+                [37.618585951348535, 127.0044150396187],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_59e363aab6a8399a7de76417e49a7f8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e19e90d9dc76edb8effe06e1286f0fae = $(`<div id="html_e19e90d9dc76edb8effe06e1286f0fae" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게뜨정릉풍림점</strong><br>주소: 서울특별시 성북구 솔샘로25길 20 (정릉동, 정릉품림아이원상가2 105호)<br></div></div>`)[0];
+                popup_59e363aab6a8399a7de76417e49a7f8f.setContent(html_e19e90d9dc76edb8effe06e1286f0fae);
+            
+        
+
+        circle_046634ad2b93657eb67f139a12518dd5.bindPopup(popup_59e363aab6a8399a7de76417e49a7f8f)
+        ;
+
+        
+    
+    
+            circle_046634ad2b93657eb67f139a12518dd5.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_24b790284691aeed865b8fa5aefec4cb = L.circle(
+                [37.59914370704831, 127.01606812566472],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_7bb1994577bef649b7dfd2363d488092 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38728d789f358e1adfdf5ca63d09cc87 = $(`<div id="html_38728d789f358e1adfdf5ca63d09cc87" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게뜨(정릉대림점)</strong><br>주소: 서울특별시 성북구 북악산로 851 (정릉동,정릉대림(아)상가 104호,106호)<br></div></div>`)[0];
+                popup_7bb1994577bef649b7dfd2363d488092.setContent(html_38728d789f358e1adfdf5ca63d09cc87);
+            
+        
+
+        circle_24b790284691aeed865b8fa5aefec4cb.bindPopup(popup_7bb1994577bef649b7dfd2363d488092)
+        ;
+
+        
+    
+    
+            circle_24b790284691aeed865b8fa5aefec4cb.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d9ddc9efea91e368570012c23c8ec91f = L.circle(
+                [37.61121892143518, 127.01954246725069],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_8e274a024cdfaccf1a77f8204f9304f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc5c068c45ebd43429ec5cd7632377d8 = $(`<div id="html_dc5c068c45ebd43429ec5cd7632377d8" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>파리바게뜨(길음동부점)</strong><br>주소: 서울특별시 성북구 삼양로 88, 지하1, 지상1층 (길음동)<br></div></div>`)[0];
+                popup_8e274a024cdfaccf1a77f8204f9304f2.setContent(html_dc5c068c45ebd43429ec5cd7632377d8);
+            
+        
+
+        circle_d9ddc9efea91e368570012c23c8ec91f.bindPopup(popup_8e274a024cdfaccf1a77f8204f9304f2)
+        ;
+
+        
+    
+    
+            circle_d9ddc9efea91e368570012c23c8ec91f.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e77ed95c7d70bca6a88a9c6f7a544e56 = L.circle(
+                [37.6107300929371, 127.00599182287488],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_bee00192fe96be4b62ddf3aac916c801 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7d74fa1070a8ad5fb0d8bc43c9289e6 = $(`<div id="html_a7d74fa1070a8ad5fb0d8bc43c9289e6" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>감구당</strong><br>주소: 서울특별시 성북구 보국문로 71, 1층 (정릉동)<br></div></div>`)[0];
+                popup_bee00192fe96be4b62ddf3aac916c801.setContent(html_a7d74fa1070a8ad5fb0d8bc43c9289e6);
+            
+        
+
+        circle_e77ed95c7d70bca6a88a9c6f7a544e56.bindPopup(popup_bee00192fe96be4b62ddf3aac916c801)
+        ;
+
+        
+    
+    
+            circle_e77ed95c7d70bca6a88a9c6f7a544e56.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3da337dce8c3c7b230eaa84840ba7520 = L.circle(
+                [37.594103519852446, 126.99641144980949],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_2b9bd9b66683d6e5e189dde8a9456966 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8635860ea255a476747d7384c053dac0 = $(`<div id="html_8635860ea255a476747d7384c053dac0" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>밀곳간</strong><br>주소: 서울특별시 성북구 성북로18길 19, 1층 (성북동)<br></div></div>`)[0];
+                popup_2b9bd9b66683d6e5e189dde8a9456966.setContent(html_8635860ea255a476747d7384c053dac0);
+            
+        
+
+        circle_3da337dce8c3c7b230eaa84840ba7520.bindPopup(popup_2b9bd9b66683d6e5e189dde8a9456966)
+        ;
+
+        
+    
+    
+            circle_3da337dce8c3c7b230eaa84840ba7520.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8bed621e1df2382d72087621d11f4cb4 = L.circle(
+                [37.60837442769309, 127.02583462076558],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_14f6ca80b4a8c335167b322c1a0cd9dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_777e165a9183f711bfeddf312a2e6c28 = $(`<div id="html_777e165a9183f711bfeddf312a2e6c28" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>(주)성북동사람들박앤윤</strong><br>주소: 서울특별시 성북구 동소문로 315, 현대백화점미아점 지하1층 (길음동)<br></div></div>`)[0];
+                popup_14f6ca80b4a8c335167b322c1a0cd9dd.setContent(html_777e165a9183f711bfeddf312a2e6c28);
+            
+        
+
+        circle_8bed621e1df2382d72087621d11f4cb4.bindPopup(popup_14f6ca80b4a8c335167b322c1a0cd9dd)
+        ;
+
+        
+    
+    
+            circle_8bed621e1df2382d72087621d11f4cb4.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e7f980e7306fe9f37f94a08489dc3584 = L.circle(
+                [37.58644552741187, 127.0195822576405],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_ad4dc39802a2c3d1679ca0ce6c942d93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0cbd4a7be7e1b415d2d69c2eb8abf75 = $(`<div id="html_a0cbd4a7be7e1b415d2d69c2eb8abf75" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>Petit Bouton(쁘띠 부통)</strong><br>주소: 서울특별시 성북구 고려대로 29-1, 1층 (안암동2가)<br></div></div>`)[0];
+                popup_ad4dc39802a2c3d1679ca0ce6c942d93.setContent(html_a0cbd4a7be7e1b415d2d69c2eb8abf75);
+            
+        
+
+        circle_e7f980e7306fe9f37f94a08489dc3584.bindPopup(popup_ad4dc39802a2c3d1679ca0ce6c942d93)
+        ;
+
+        
+    
+    
+            circle_e7f980e7306fe9f37f94a08489dc3584.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d4e62cfd4cf22141f30a718e6a353116 = L.circle(
+                [37.61041052770929, 127.02466625098087],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_ddc91c5f8ee8866c783f0c4dad12944d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8a8fe9a752f5ae5e0b146a84cc1bcef = $(`<div id="html_d8a8fe9a752f5ae5e0b146a84cc1bcef" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>브래드 마티스</strong><br>주소: 서울특별시 성북구 숭인로 50, 142(상가)동 지하2층 2104호 (길음동, 래미안길음센터피스)<br></div></div>`)[0];
+                popup_ddc91c5f8ee8866c783f0c4dad12944d.setContent(html_d8a8fe9a752f5ae5e0b146a84cc1bcef);
+            
+        
+
+        circle_d4e62cfd4cf22141f30a718e6a353116.bindPopup(popup_ddc91c5f8ee8866c783f0c4dad12944d)
+        ;
+
+        
+    
+    
+            circle_d4e62cfd4cf22141f30a718e6a353116.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f211e5d51ef320df7e4d4c116fafa02f = L.circle(
+                [37.582625161308655, 127.01742689111192],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_b2c26fd8a9a5d78da12557d0a7368c52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_385cc87f53929968092792ef3aec9006 = $(`<div id="html_385cc87f53929968092792ef3aec9006" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>딜릴리 케이크</strong><br>주소: 서울특별시 성북구 지봉로24길 59, 1층 (보문동5가)<br></div></div>`)[0];
+                popup_b2c26fd8a9a5d78da12557d0a7368c52.setContent(html_385cc87f53929968092792ef3aec9006);
+            
+        
+
+        circle_f211e5d51ef320df7e4d4c116fafa02f.bindPopup(popup_b2c26fd8a9a5d78da12557d0a7368c52)
+        ;
+
+        
+    
+    
+            circle_f211e5d51ef320df7e4d4c116fafa02f.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d9b6f0c7ebbbda0cfba839ad0bce8d52 = L.circle(
+                [37.598049591778214, 127.0296999498507],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_d166725d0e5d303ca6e7fb6fb8622e64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_050dbbdaf3a87c81fa7436fb0711683f = $(`<div id="html_050dbbdaf3a87c81fa7436fb0711683f" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>오월의 밀밭</strong><br>주소: 서울특별시 성북구 종암로19길 40, 1층 (종암동)<br></div></div>`)[0];
+                popup_d166725d0e5d303ca6e7fb6fb8622e64.setContent(html_050dbbdaf3a87c81fa7436fb0711683f);
+            
+        
+
+        circle_d9b6f0c7ebbbda0cfba839ad0bce8d52.bindPopup(popup_d166725d0e5d303ca6e7fb6fb8622e64)
+        ;
+
+        
+    
+    
+            circle_d9b6f0c7ebbbda0cfba839ad0bce8d52.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fa5a04447a9dfdedfaabb8a1cdd93c98 = L.circle(
+                [37.61035153560569, 127.0052791836734],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_f679a596eabe957ab2bb8a03824b7943 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4991d2880190068edc88192d857d4b61 = $(`<div id="html_4991d2880190068edc88192d857d4b61" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>브레댄코 정릉점</strong><br>주소: 서울특별시 성북구 솔샘로18길 58, 1층 (정릉동)<br></div></div>`)[0];
+                popup_f679a596eabe957ab2bb8a03824b7943.setContent(html_4991d2880190068edc88192d857d4b61);
+            
+        
+
+        circle_fa5a04447a9dfdedfaabb8a1cdd93c98.bindPopup(popup_f679a596eabe957ab2bb8a03824b7943)
+        ;
+
+        
+    
+    
+            circle_fa5a04447a9dfdedfaabb8a1cdd93c98.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4671df3fc43d20c4eb75ad12675dc7ae = L.circle(
+                [37.59586522385136, 126.9856847242753],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_e2d6c24c821d7551aa9259923cdc42a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae1b739f9efc7c09e55b337d41d0fa98 = $(`<div id="html_ae1b739f9efc7c09e55b337d41d0fa98" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>성북동 빵공장</strong><br>주소: 서울특별시 성북구 대사관로 40, B동 2층 (성북동)<br></div></div>`)[0];
+                popup_e2d6c24c821d7551aa9259923cdc42a7.setContent(html_ae1b739f9efc7c09e55b337d41d0fa98);
+            
+        
+
+        circle_4671df3fc43d20c4eb75ad12675dc7ae.bindPopup(popup_e2d6c24c821d7551aa9259923cdc42a7)
+        ;
+
+        
+    
+    
+            circle_4671df3fc43d20c4eb75ad12675dc7ae.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_07d77fa43ad07dabdd952cded18048b8 = L.circle(
+                [37.59309856830805, 127.01389081131924],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_fd63e250c498cf8f7409a444dfa7314a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b91ea9d17185e66efd85a0d6be53491 = $(`<div id="html_2b91ea9d17185e66efd85a0d6be53491" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>핫브레드 성신여대입구역점</strong><br>주소: 서울특별시 성북구 동소문로 지하 102, 성신여대입구역 418-111호 (동선동4가)<br></div></div>`)[0];
+                popup_fd63e250c498cf8f7409a444dfa7314a.setContent(html_2b91ea9d17185e66efd85a0d6be53491);
+            
+        
+
+        circle_07d77fa43ad07dabdd952cded18048b8.bindPopup(popup_fd63e250c498cf8f7409a444dfa7314a)
+        ;
+
+        
+    
+    
+            circle_07d77fa43ad07dabdd952cded18048b8.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_758047ceda1e58b6068e04d115d6996a = L.circle(
+                [37.59874549495824, 127.03117771800517],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_4bc8ec9f0f75abde7749e92e1729e6f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_889daf9bdff635eb73875f21a479ef17 = $(`<div id="html_889daf9bdff635eb73875f21a479ef17" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>더 미엘</strong><br>주소: 서울특별시 성북구 종암로19길 6, 1층 (종암동)<br></div></div>`)[0];
+                popup_4bc8ec9f0f75abde7749e92e1729e6f1.setContent(html_889daf9bdff635eb73875f21a479ef17);
+            
+        
+
+        circle_758047ceda1e58b6068e04d115d6996a.bindPopup(popup_4bc8ec9f0f75abde7749e92e1729e6f1)
+        ;
+
+        
+    
+    
+            circle_758047ceda1e58b6068e04d115d6996a.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3d1081f096e2b3894256b47e8b5965ae = L.circle(
+                [37.58714487358145, 127.02409518287283],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_666fc7b721042f1d93cd7954afb782cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5caf2ef3a9230c15a1303b93e923c5cd = $(`<div id="html_5caf2ef3a9230c15a1303b93e923c5cd" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>고대병원 롤링핀 신관점</strong><br>주소: 서울특별시 성북구 고려대로 73, 고려대병원 1층 (안암동5가)<br></div></div>`)[0];
+                popup_666fc7b721042f1d93cd7954afb782cd.setContent(html_5caf2ef3a9230c15a1303b93e923c5cd);
+            
+        
+
+        circle_3d1081f096e2b3894256b47e8b5965ae.bindPopup(popup_666fc7b721042f1d93cd7954afb782cd)
+        ;
+
+        
+    
+    
+            circle_3d1081f096e2b3894256b47e8b5965ae.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_898aac23fadc45c7e79525f743540d8c = L.circle(
+                [37.61915383203022, 127.04576290965062],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_61282bed7178901f5b3f08d41b535578 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_425cd95da793ed865b22c0b88d3ab986 = $(`<div id="html_425cd95da793ed865b22c0b88d3ab986" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>오블랑쉬</strong><br>주소: 서울특별시 성북구 돌곶이로40길 46, 꿈의숲아이파크 상가717동 108호 (장위동)<br></div></div>`)[0];
+                popup_61282bed7178901f5b3f08d41b535578.setContent(html_425cd95da793ed865b22c0b88d3ab986);
+            
+        
+
+        circle_898aac23fadc45c7e79525f743540d8c.bindPopup(popup_61282bed7178901f5b3f08d41b535578)
+        ;
+
+        
+    
+    
+            circle_898aac23fadc45c7e79525f743540d8c.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_024cbb76797dce15e54e2e826540802b = L.circle(
+                [37.6070330464204, 127.03547544673835],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_9693963582404a05c682e62c15812b90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c86fb79ab62fec72198cad34be34b97d = $(`<div id="html_c86fb79ab62fec72198cad34be34b97d" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>인생디저트</strong><br>주소: 서울특별시 성북구 오패산로 46, 주상가동 273호 (하월곡동, 월곡두산위브아파트)<br></div></div>`)[0];
+                popup_9693963582404a05c682e62c15812b90.setContent(html_c86fb79ab62fec72198cad34be34b97d);
+            
+        
+
+        circle_024cbb76797dce15e54e2e826540802b.bindPopup(popup_9693963582404a05c682e62c15812b90)
+        ;
+
+        
+    
+    
+            circle_024cbb76797dce15e54e2e826540802b.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_58f2127967439ea0c343d34dbadc35fc = L.circle(
+                [37.59359787680941, 127.01466985569364],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_f6cab674ed5bb98491bba66758d48d8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44ca7f785a397ab562e7fa5953dfa6f3 = $(`<div id="html_44ca7f785a397ab562e7fa5953dfa6f3" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>성북동 빵공장</strong><br>주소: 서울특별시 성북구 동소문로 115-1, 1층 (동선동4가)<br></div></div>`)[0];
+                popup_f6cab674ed5bb98491bba66758d48d8b.setContent(html_44ca7f785a397ab562e7fa5953dfa6f3);
+            
+        
+
+        circle_58f2127967439ea0c343d34dbadc35fc.bindPopup(popup_f6cab674ed5bb98491bba66758d48d8b)
+        ;
+
+        
+    
+    
+            circle_58f2127967439ea0c343d34dbadc35fc.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_598160c72b16e8c55b845fab29e7e4e2 = L.circle(
+                [37.59633244656123, 127.01089672986994],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_97444fc2d2c6af0dffd7b7ecd25c9e0c);
+        
+    
+        var popup_f0f6f77bc4dba2f5c078edac2a5bf373 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7611936fd786dc3a8a907df251b85470 = $(`<div id="html_7611936fd786dc3a8a907df251b85470" style="width: 100.0%; height: 100.0%;"><div style="width:100px"><strong>뚜레쥬르동선브라운스톤점</strong><br>주소: 서울특별시 성북구 아리랑로5길 25, 상가동 1층 111, 112호 (동소문동7가, 브라운스톤 동선아파트)<br></div></div>`)[0];
+                popup_f0f6f77bc4dba2f5c078edac2a5bf373.setContent(html_7611936fd786dc3a8a907df251b85470);
+            
+        
+
+        circle_598160c72b16e8c55b845fab29e7e4e2.bindPopup(popup_f0f6f77bc4dba2f5c078edac2a5bf373)
+        ;
+
+        
+    
+    
+            circle_598160c72b16e8c55b845fab29e7e4e2.bindTooltip(
+                `<div>
+                     Click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
